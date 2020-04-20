@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "39fc30bc-38c3-4acc-9327-a7184e7adc0c",
+            "Value": {
+                "id": "96ccb21f-0434-48db-a8f4-0795700764a9",
+                "resourcePath": "views\\39fc30bc-38c3-4acc-9327-a7184e7adc0c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "450a37a8-2340-4f16-ae98-d65f7a1e6660",
             "Value": {
                 "id": "7c74eb3f-56f0-4a77-a550-2bec4e1ddfac",
@@ -183,11 +191,27 @@
             }
         },
         {
+            "Key": "80dfcef3-ce3a-4e75-8c3a-65ced5a3fddf",
+            "Value": {
+                "id": "800c84df-de91-458f-9646-c498dba21709",
+                "resourcePath": "sprites\\spr_map_player\\spr_map_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "fa334089-f10a-40e3-8020-4610c54b0107",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "84b8190c-0801-4096-84b0-667250e3693e",
+            "Value": {
+                "id": "4934ad83-01e9-4c33-8cee-e506355f227e",
+                "resourcePath": "objects\\obj_crop_phone_test\\obj_crop_phone_test.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -319,6 +343,14 @@
             }
         },
         {
+            "Key": "cfd70196-d06b-432a-aff2-50581eeef891",
+            "Value": {
+                "id": "28576a0e-aeec-47a3-b91a-dfbd41c5a9f4",
+                "resourcePath": "sprites\\spr_crop_phone_test\\spr_crop_phone_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d0bdb5ad-73eb-4de3-a960-12440d7439f9",
             "Value": {
                 "id": "ea89d412-dd4a-41f7-b704-7f13418dc89e",
@@ -380,6 +412,14 @@
                 "id": "6f91bef1-fa40-426d-95dd-ec70eb69071a",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f93c2466-d58d-4683-99a8-e86553b07b84",
+            "Value": {
+                "id": "8e1bb912-b1a3-4b4b-bf40-20f523a32afb",
+                "resourcePath": "views\\f93c2466-d58d-4683-99a8-e86553b07b84.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
