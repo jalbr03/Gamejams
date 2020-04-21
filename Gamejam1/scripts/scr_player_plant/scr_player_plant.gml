@@ -1,13 +1,17 @@
 if(current_carrying_plant == noone){
 	var crop = instance_place(x,y,obj_crop_parent);
 	if(crop){
-		print(crop.object_index);
-		//current_carrying_plant = asset_get_index(object_get_name(crop));
-		current_carrying_plant = crop.object_index;
+		var plant_cost = crop.cost
+		if(money - plant_cost >= 0 && crop.type == "buyable"){
+			current_carrying_plant = crop.object_index;
+			money -= plant_cost;
+		}
 	}
 }else{
-	instance_create_layer(x,y,layer,current_carrying_plant);
-	current_carrying_plant = noone;
+	if(place_meeting(x,y,obj_plant_space)){
+		instance_create_layer(x,y+sprite_height/2,layer,current_carrying_plant);
+		current_carrying_plant = noone;
+	}
 	/*
 	timer--;
 	if(timer <= 0){

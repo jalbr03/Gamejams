@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "1a8e52e7-c4fe-43ad-934f-d9336ca2bfe3"
+        },
+        {
+            "id": "33ad6685-9abe-4641-8d26-b94b797c489c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "1a8e52e7-c4fe-43ad-934f-d9336ca2bfe3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -55,6 +65,62 @@
             "value": "noone",
             "varName": "current_carrying_plant",
             "varType": 5
+        },
+        {
+            "id": "b322be29-3166-436c-9fdc-be33d0f0193f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "200",
+            "varName": "money",
+            "varType": 0
+        },
+        {
+            "id": "c5a8d738-5fc0-4780-9453-37d6aa03fd6e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "player_strength",
+            "varType": 0
+        },
+        {
+            "id": "69d359eb-2a58-43c3-921a-d212ec124b4c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "player_speed",
+            "varType": 0
+        },
+        {
+            "id": "af02664a-1307-4607-bb23-4eb4b9c66e00",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "player_spell",
+            "varType": 0
         }
     ],
     "solid": false,

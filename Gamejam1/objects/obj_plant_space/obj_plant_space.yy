@@ -1,23 +1,14 @@
 {
-    "id": "cd2d5cb3-4f72-4544-aa18-c97ac9a9b433",
+    "id": "41aec27d-3dd2-4ede-b7f4-a4899a7b9288",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_crop101_test",
+    "name": "obj_plant_space",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "398cf027-d674-428c-91b3-64a3c1560b4d",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "5f03ce4b-3654-4e4b-ba12-c8cec73875eb",
-            "propertyId": "8a7edeff-3c64-465e-931c-5d48d49f3743",
-            "value": "20"
-        }
-    ],
-    "parentObjectId": "5f03ce4b-3654-4e4b-ba12-c8cec73875eb",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2105d3c2-d53f-415b-b4f7-e0960f3dc709",
-    "visible": true
+    "spriteId": "b1839e4b-e7ba-4655-807e-9b49b6a0664e",
+    "visible": false
 }
