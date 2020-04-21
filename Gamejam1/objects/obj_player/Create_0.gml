@@ -13,3 +13,6 @@ state = player_states.idle;
 timer = 30;
 
 spd = 5;
+
+maxhp = 5;
+hp = maxhp;

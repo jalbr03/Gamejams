@@ -12,11 +12,4 @@ if(current_carrying_plant == noone){
 		instance_create_layer(x,y+sprite_height/2,layer,current_carrying_plant);
 		current_carrying_plant = noone;
 	}
-	/*
-	timer--;
-	if(timer <= 0){
-		instance_create_layer(x,y,layer,current_carrying_plant);
-		current_carrying_plant = noone;
-	}
-	*/
 }
