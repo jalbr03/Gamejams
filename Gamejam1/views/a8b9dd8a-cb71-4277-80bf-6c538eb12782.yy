@@ -8,7 +8,8 @@
         "f93c2466-d58d-4683-99a8-e86553b07b84",
         "b1839e4b-e7ba-4655-807e-9b49b6a0664e",
         "c4521c84-2999-4e44-9db3-5d324cc6c2a0",
-        "2c5d2e18-55ea-4d3a-a7b7-4dc5d5b28321"
+        "2c5d2e18-55ea-4d3a-a7b7-4dc5d5b28321",
+        "48b0f3d8-46c7-4498-b945-d95e8af38844"
     ],
     "filterType": "GMSprite",
     "folderName": "JohnyMoo",

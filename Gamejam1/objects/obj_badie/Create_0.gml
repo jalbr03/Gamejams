@@ -11,6 +11,7 @@ state = baddie_states.move;
 #endregion
 spd = 3;
 hp = 3;
+hpbar = 100/hp;
 maxtime = 10;
 timer = maxtime;
 attack_dist = 10;

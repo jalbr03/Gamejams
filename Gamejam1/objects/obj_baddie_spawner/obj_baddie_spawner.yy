@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_baddie_spawner",
     "eventList": [
-        
+        {
+            "id": "054f0bf1-b923-4cd0-b6dd-6aed1682880b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ae62a8bc-08bf-42ed-8c52-d97d28705d28"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
