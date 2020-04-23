@@ -15,6 +15,22 @@
             "objectId": "5f03ce4b-3654-4e4b-ba12-c8cec73875eb",
             "propertyId": "8a7edeff-3c64-465e-931c-5d48d49f3743",
             "value": " 50"
+        },
+        {
+            "id": "457fa4b7-ab7c-464c-8603-5bc1319800c4",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "5f03ce4b-3654-4e4b-ba12-c8cec73875eb",
+            "propertyId": "2702026f-9f4d-4b56-b197-9f93cbed4908",
+            "value": "0.1"
+        },
+        {
+            "id": "b0029f96-e9b6-491d-920b-08b64a139231",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "5f03ce4b-3654-4e4b-ba12-c8cec73875eb",
+            "propertyId": "1007167c-5a21-44c6-a4f5-18f0451a09cc",
+            "value": "\"money\""
         }
     ],
     "parentObjectId": "5f03ce4b-3654-4e4b-ba12-c8cec73875eb",

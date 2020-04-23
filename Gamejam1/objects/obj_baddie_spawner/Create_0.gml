@@ -1,0 +1,1 @@
+num_of_baddies_spawned = 0;

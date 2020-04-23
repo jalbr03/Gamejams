@@ -1,0 +1,1 @@
+if(state < max_state) state += 1;

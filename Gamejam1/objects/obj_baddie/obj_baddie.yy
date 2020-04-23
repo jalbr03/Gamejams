@@ -105,6 +105,20 @@
             "value": "10",
             "varName": "kill_value",
             "varType": 0
+        },
+        {
+            "id": "d05353f4-4b8f-4088-932e-ba5e2d524fab",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "hp",
+            "varType": 0
         }
     ],
     "solid": false,

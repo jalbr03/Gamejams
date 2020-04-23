@@ -13,7 +13,6 @@ image_speed = 1;
 drop_money = false;
 is_dead = false;
 spd = 3;
-hp = 3;
 hpbar = 100/hp;
 maxtime = 10;
 timer = maxtime;

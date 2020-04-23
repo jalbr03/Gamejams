@@ -129,7 +129,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "1",
-            "varName": "player_spell",
+            "varName": "player_money",
             "varType": 0
         }
     ],

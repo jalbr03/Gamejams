@@ -5,6 +5,24 @@ if(current_carrying_plant == noone){
 		if(money - plant_cost >= 0 && crop.type == "buyable"){
 			current_carrying_plant = crop.object_index;
 			money -= plant_cost;
+		}else if(crop.type == "plant"){
+			if(crop.state == crop.max_state){
+				switch crop.add_to{
+					case "strength":
+					player_strength += crop.amount_to_add;
+					break;
+					case "speed":
+					player_speed += crop.amount_to_add;
+					break;
+					case "money":
+					player_money += crop.amount_to_add;
+					break;
+					case "HP":
+					if(hp < maxhp) hp += crop.amount_to_add;
+					break;
+				}
+				instance_destroy(crop);
+			}
 		}
 	}
 }else{
