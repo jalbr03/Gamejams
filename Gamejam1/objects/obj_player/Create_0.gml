@@ -12,7 +12,8 @@ states[player_states.attack] = scr_player_attack;
 
 state = player_states.idle;
 #endregion
-maxtime = 10;
+image_speed = 1;
+maxtime = 30;
 timer = 0;
 
 startspd = 5

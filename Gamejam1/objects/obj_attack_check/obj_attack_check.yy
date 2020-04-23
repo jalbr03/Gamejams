@@ -5,13 +5,23 @@
     "name": "obj_attack_check",
     "eventList": [
         {
-            "id": "54a5df71-ee27-4458-8e54-252a5a0a7bfe",
+            "id": "62fe6828-254f-44a1-87bb-651984aea5fc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6d01da4f-b711-4b7f-a81e-93b748b03858"
+        },
+        {
+            "id": "e27fb342-1ca0-45b4-a6fa-d33697b6c289",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "6d01da4f-b711-4b7f-a81e-93b748b03858"
         }
     ],
@@ -63,5 +73,5 @@
     ],
     "solid": false,
     "spriteId": "2c5d2e18-55ea-4d3a-a7b7-4dc5d5b28321",
-    "visible": false
+    "visible": true
 }

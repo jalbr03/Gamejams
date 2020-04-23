@@ -1,3 +1,4 @@
+sprite_index = spr_baddie_walk;
 var dir = point_direction(x,y,obj_player.x,obj_player.y);
 direction = dir;
 var side = sign(x - obj_player.x);

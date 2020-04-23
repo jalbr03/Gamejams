@@ -9,7 +9,9 @@ if(current_carrying_plant == noone){
 	}
 }else{
 	if(place_meeting(x,y,obj_plant_space)){
-		instance_create_layer(x,y+sprite_height/2,layer,current_carrying_plant);
+		var crop = instance_create_depth(x,y+sprite_height/2,depth,current_carrying_plant);
+		crop.depth = depth;
+		
 		current_carrying_plant = noone;
 	}
 }

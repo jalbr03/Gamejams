@@ -1,0 +1,1 @@
+can_be_attacked = true;
