@@ -1,0 +1,1 @@
+obj_baddie_spawner.spawn_baddie = true;

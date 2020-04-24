@@ -21,6 +21,7 @@ if(current_carrying_plant == noone){
 					if(hp < maxhp) hp += crop.amount_to_add;
 					break;
 				}
+				player_score += crop.cost/100;
 				instance_destroy(crop);
 			}
 		}
