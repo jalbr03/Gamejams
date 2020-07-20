@@ -12,7 +12,9 @@
         "6d01da4f-b711-4b7f-a81e-93b748b03858",
         "62d23f81-9f90-4261-9a5b-b022b2f6555b",
         "8f67ad70-e36e-46ad-89fc-5b2c2d3df439",
-        "7df4dd31-6c35-4c62-b104-32793059fc6c"
+        "7df4dd31-6c35-4c62-b104-32793059fc6c",
+        "b52d245e-7f6b-4614-84a9-07f249f50fcf",
+        "75abbc00-aeaf-4553-ae69-72ebbece291e"
     ],
     "filterType": "GMObject",
     "folderName": "JohnyMoo",

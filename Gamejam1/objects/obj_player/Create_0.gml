@@ -23,3 +23,10 @@ maxhp = 5;
 hp = maxhp;
 
 line_spacing = 40;
+
+menu_W = 100;
+menu_H = 20;
+menu = false;
+quit = false;
+
+player_score = 0;
