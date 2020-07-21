@@ -28,7 +28,7 @@ if(quitWasPressed){
 		ds_list_delete(obj_player_container.player_info,ds_list_find_index(obj_player_container.player_info,color));
 	}
 }
-
+print(controller)
 #region sending off the player
 if(global.players_ready == true && !data_sent){
 	with(obj_player_container){

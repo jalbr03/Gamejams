@@ -26,13 +26,13 @@ while(place_meeting(x,y,obj_wall)){
 	var freewall = instance_nearest(x,y,obj_free_wall);
 	if(instance_exists(freewall)){
 		print(freewall);
-		x += (freewall.x-x)/20;
-		y += (freewall.y-y)/20;
+		x += (freewall.x-x)/64;
+		y += (freewall.y-y)/64;
 	}
 }
 
 //shooting
-if(shoot && cool_down <= 0){
+if(shoot && cool_down <= 0 && room != rm_join){
 	var hugger = instance_create_layer(x,y,layer,obj_hugger);
 	hugger.image_angle = image_angle;
 	hugger.creator = id;

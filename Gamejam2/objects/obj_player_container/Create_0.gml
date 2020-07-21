@@ -1,5 +1,5 @@
 player_info = ds_list_create();
-
+dropped_down = false;
 
 /*
 var contNUM = instance_number(obj_player_container);
