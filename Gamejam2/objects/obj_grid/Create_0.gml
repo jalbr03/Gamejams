@@ -1,4 +1,4 @@
-gid_size = 20;
+gid_size = 4;
 noise_init();
 increment = 0.1;
 zoff = random(100);
