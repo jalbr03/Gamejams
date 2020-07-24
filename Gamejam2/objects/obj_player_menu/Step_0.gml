@@ -1,8 +1,13 @@
-var move_v = gamepad_axis_value(0, gp_axislv);
-var menu_press = gamepad_button_check_pressed(0,gp_start);
-var select = gamepad_button_check_pressed(0,gp_face1);
-var back = gamepad_button_check_pressed(0,gp_face2);
-
+var move_v,menu_press,select,back;
+for(var i=0;i<12;i++){
+	move_v = gamepad_axis_value(i, gp_axislv);
+	menu_press = gamepad_button_check_pressed(i,gp_start);
+	select = gamepad_button_check_pressed(i,gp_face1);
+	back = gamepad_button_check_pressed(i,gp_face2);
+	if(move_v != 0 || menu_press || select || back){
+		break;
+	}
+}
 if(menu_press){
 	menu = !menu;
 	button_yoff = -(room_height/4)*3;
@@ -47,6 +52,8 @@ if(menu){
 					break;
 				case 2:
 					if(room != rm_join){
+						selection = 0;
+						menu = false;
 						room_goto(rm_join);
 					}else{
 						game_end();
@@ -58,10 +65,18 @@ if(menu){
 				case 0:
 					volumes[sound.music] += 0.1;
 					if(volumes[sound.music] > 1) volumes[sound.music] = 0;
+					for(var i=0;i<array_length_1d(music_sounds);i++){
+						audio_sound_gain(music_sounds[i],volumes[sound.music],0);
+						audio_sound_gain(music_sounds[i],volumes[sound.music],audio_sound_length(music_sounds[i])*1000);
+					}
 					break;
 				case 1:
 					volumes[sound.sfx] += 0.1;
 					if(volumes[sound.sfx] > 1) volumes[sound.sfx] = 0;
+					for(var i=0;i<array_length_1d(sfx_sounds);i++){
+						audio_sound_gain(sfx_sounds[i],volumes[sound.music],0);
+						audio_sound_gain(sfx_sounds[i],sfx_sounds[sound.music],audio_sound_length(sfx_sounds[i])*1000);
+					}
 					break;
 				case 2:
 					options = false;
