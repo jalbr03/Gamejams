@@ -26,5 +26,5 @@ for (var i = 0; i < 12 && self.number_of_players < self.max_players; i++) {
 	}
 }
 if(global.players_ready){
-	if(alarm[0] == -1) alarm[0] = fps*3;
+	if(alarm[0] == -1) alarm[0] = fps;
 }

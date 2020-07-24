@@ -14,7 +14,7 @@ if(!tail){
 if(image_alpha <= 0 || y > room_height){
 	instance_destroy();
 }
-var change_char = irandom(10);
+var change_char = irandom(50);
 if(change_char == 0){
 	char = irandom(array_length_1d(chars)-1);
 }

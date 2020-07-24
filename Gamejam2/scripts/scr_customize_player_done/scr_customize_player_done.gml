@@ -5,7 +5,7 @@ var color = image_blend;
 
 //playing around with the player
 if(room_select_player == noone){
-	room_select_player = instance_create_layer(room_width/2,room_height/2,layer,obj_player);
+	room_select_player = instance_create_layer(room_width/2,(room_height/3)*2,layer,obj_player);
 	
 	with(room_select_player){
 		controller_number = controller;
@@ -28,16 +28,20 @@ if(quitWasPressed){
 		ds_list_delete(obj_player_container.player_info,ds_list_find_index(obj_player_container.player_info,color));
 	}
 }
-print(controller)
 #region sending off the player
 if(global.players_ready == true && !data_sent){
 	with(obj_player_container){
+		var player_id = (-controller)-10;
 		ds_list_add(player_info,controller);
 		ds_list_add(player_info,color);
+		ds_list_add(player_info,player_id);//id
+		ds_list_add(player_info,0);//points
 	}
 	data_sent = true;
 }
 #endregion
-if(gamepad_button_check_pressed(controller_id, gp_start)){
-	global.players_ready = true;
+if(gamepad_button_check_pressed(controller_id, gp_face1)){
+	if(instance_number(obj_player) > 1){
+		global.players_ready = true;
+	}
 }

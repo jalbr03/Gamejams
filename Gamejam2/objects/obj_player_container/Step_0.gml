@@ -3,12 +3,14 @@ if(room == rm_join){
 		ds_list_clear(player_info);
 	}
 	dropped_down = false;
-}else if(!dropped_down){
-	for(var i=0;i<ds_list_size(player_info)/2;i++){
+}else if(!dropped_down && room != rm_points){
+	for(var i=0;i<ds_list_size(player_info)/4;i++){
 		var player = instance_create_layer(x+random(32),y,"tractors",obj_drop_down);
-		print(i)
-		player.controller_number = ds_list_find_value(player_info,i*2);
-		player.image_blend = ds_list_find_value(player_info,(i*2)+1);
+		player.controller_number = ds_list_find_value(player_info,i*4);
+		player.image_blend = ds_list_find_value(player_info,(i*4)+1);
+		player.player_id = ds_list_find_value(player_info,(i*4)+2);
+		print("player");
+		print(ds_list_find_value(player_info,(i*4)+2));
 	}
 	dropped_down = true;
 }

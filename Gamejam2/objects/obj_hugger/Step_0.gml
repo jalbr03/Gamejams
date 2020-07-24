@@ -8,5 +8,8 @@ if(!hug){
 	y += lengthdir_y(spd,image_angle);
 }else{
 	spd = 0;
-	if(!instance_exists(obj_heart)) instance_create_layer(x,y,layer,obj_heart)
+	if(!instance_exists(obj_heart)){
+		var heart = instance_create_layer(x,y,layer,obj_heart)
+		heart.creator = creator;
+	}
 }

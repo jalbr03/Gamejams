@@ -74,6 +74,8 @@ if(quitWasPressed){
 	current_select = 0; //resetting the select for the sliders
 	image_blend = make_color_rgb(255,255,255); //setting the color back to 0
 	image_speed = self.imgspd;//reset image speed
+	state = customstates.join;
+	scr_customize_destroy_sliders();
 }
 #endregion
 if(upWasPressed || downWasPressed){
