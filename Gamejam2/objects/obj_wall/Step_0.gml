@@ -48,6 +48,7 @@
 //		wall_pose = [1, 1];
 //	break;
 //}
+
 if(image_index != 0){
 	wall_pose[0] += x;
 	wall_pose[1] += y;

@@ -1,3 +1,4 @@
+//audio_play_sound(snd_3_low,4,0);
 time -= 1;
 txt_fall = 15;
 txt_alpha = 0;

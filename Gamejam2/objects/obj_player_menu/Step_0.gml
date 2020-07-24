@@ -13,6 +13,17 @@ if(menu_press){
 	button_yoff = -(room_height/4)*3;
 }
 
+if(room != rm_join){
+	audio_pause_sound(join_music);
+	audio_resume_sound(level_music);
+}else{
+	audio_pause_sound(level_music);
+	audio_resume_sound(join_music);
+}
+if(!instance_exists(obj_player)){
+	audio_stop_sound(snd_tracks);
+}
+
 //menu
 if(menu){
 	instance_deactivate_object(obj_player);
@@ -25,8 +36,11 @@ if(menu){
 	instance_deactivate_object(obj_heart);
 	instance_deactivate_object(obj_drop_down);
 	instance_deactivate_object(obj_player_droping);
+	instance_deactivate_object(obj_power_glitch);
+	instance_deactivate_object(obj_power_up_parent);
 	if(move_v != 0){
 		if(!was_input_pressed){
+			audio_play_sound(snd_selection,3,0);
 			selection += sign(move_v);
 			was_input_pressed = true;
 			selection = clamp(selection,0,2);
@@ -41,6 +55,7 @@ if(menu){
 	}
 	
 	if(select){
+		audio_play_sound(snd_selection,3,0);
 		if(!options){
 			switch(selection){
 				case 0:
@@ -74,8 +89,8 @@ if(menu){
 					volumes[sound.sfx] += 0.1;
 					if(volumes[sound.sfx] > 1) volumes[sound.sfx] = 0;
 					for(var i=0;i<array_length_1d(sfx_sounds);i++){
-						audio_sound_gain(sfx_sounds[i],volumes[sound.music],0);
-						audio_sound_gain(sfx_sounds[i],sfx_sounds[sound.music],audio_sound_length(sfx_sounds[i])*1000);
+						audio_sound_gain(sfx_sounds[i],volumes[sound.sfx],0);
+						audio_sound_gain(sfx_sounds[i],volumes[sound.sfx],audio_sound_length(sfx_sounds[i])*1000);
 					}
 					break;
 				case 2:

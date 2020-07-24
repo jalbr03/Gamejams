@@ -1,10 +1,10 @@
 if(!tail){
-	y += spd;
+	y += spd*grv;
 	if(distance_to_object(obj_rain)>10){
-		var trail = instance_create_layer(x,y,layer,obj_rain);
+		var trail = instance_create_depth(x,y,1,obj_rain);
 		trail.tail = true;
 	}
-	var destroy = irandom(100);
+	var destroy = irandom(life_span);
 	if(destroy == 0){
 		instance_destroy();
 	}
