@@ -11,6 +11,12 @@ var shoot = gamepad_button_check(controller_number, gp_shoulderrb)
 x += move_h*spd;
 y += move_v*spd;
 
+if((move_h || move_h) != 0){
+	audio_play_sound(track_sound,10,1);
+}else{
+	audio_pause_sound(track_sound);
+}
+
 if(cursor_move_h != 0 || cursor_move_v !=0){
 	last_cursor_move_h = cursor_move_h;
 	last_cursor_move_v = cursor_move_v;
@@ -46,10 +52,10 @@ if(cool_down > 0){
 	cool_down -= 1;
 }
 
-if(mouse_check_button_pressed(mb_left)){
-	x = mouse_x;
-	y = mouse_y;
-}
+//if(mouse_check_button_pressed(mb_left)){
+//	x = mouse_x;
+//	y = mouse_y;
+//}
 print("player_id "+string(player_id));
 //win
 if(win){
