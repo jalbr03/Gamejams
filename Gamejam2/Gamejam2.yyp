@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0209199b-0502-416e-be64-0fd4bbf48a5f",
+            "Value": {
+                "id": "4491bc92-ce02-4365-9f0e-5aa70097e006",
+                "resourcePath": "objects\\obj_crate_intro\\obj_crate_intro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0265a643-59d1-4d44-a49e-2838599811d2",
             "Value": {
                 "id": "53566b6b-8f9e-421c-b3bb-2df4ab324a7c",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "99cb766e-9b74-4843-89ef-ef2da6010fee",
+            "Value": {
+                "id": "13baa7c2-fc4b-4b9a-812a-e36a4db7049e",
+                "resourcePath": "rooms\\rm_winner\\rm_winner.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9e8b84f8-b249-4c24-a672-419e567a173d",
             "Value": {
                 "id": "73a5215e-2edb-4fb2-b358-297c191b096d",
@@ -615,6 +631,14 @@
             }
         },
         {
+            "Key": "ad7225eb-9bed-4415-926f-0c38e7c9fc01",
+            "Value": {
+                "id": "85fa8b12-620f-4f93-847c-1bb2904c08d6",
+                "resourcePath": "sounds\\snd_chimes\\snd_chimes.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "af83380c-299b-4af6-b88e-5607433b0eda",
             "Value": {
                 "id": "221648c8-158c-42e8-ac84-caae8edfbc0b",
@@ -695,6 +719,14 @@
             }
         },
         {
+            "Key": "c726e78d-90f7-4b53-ad5b-939ce18a9597",
+            "Value": {
+                "id": "150eb71c-80c4-45a4-a0d0-f6f82f5e75ff",
+                "resourcePath": "rooms\\rm_splash\\rm_splash.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c88dce17-9fda-4cb0-b3ce-00b33e388205",
             "Value": {
                 "id": "f8eb34e8-abe1-40e0-8e0c-957995f0177f",
@@ -708,6 +740,14 @@
                 "id": "1ebe70ea-cd19-48f0-829d-0f2357c43c17",
                 "resourcePath": "sounds\\snd_shoot\\snd_shoot.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ca03b171-0941-49e9-a7bf-86bdef71b04a",
+            "Value": {
+                "id": "f782a91c-3d46-43a1-a87d-c473c3155191",
+                "resourcePath": "views\\ca03b171-0941-49e9-a7bf-86bdef71b04a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
