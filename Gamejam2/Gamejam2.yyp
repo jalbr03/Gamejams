@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00d74da4-ab09-4008-839e-7a452117e23d",
+            "Value": {
+                "id": "3d2676b7-d8bb-4d0b-add6-f5c5bed7a5d2",
+                "resourcePath": "objects\\obj_confetti\\obj_confetti.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0209199b-0502-416e-be64-0fd4bbf48a5f",
             "Value": {
                 "id": "4491bc92-ce02-4365-9f0e-5aa70097e006",
@@ -727,6 +735,14 @@
             }
         },
         {
+            "Key": "c7b25414-f4e3-43fd-a402-9a4f84542fb8",
+            "Value": {
+                "id": "73b89889-1e76-4e77-bce3-437c358eae16",
+                "resourcePath": "objects\\obj_confetti_spawner\\obj_confetti_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c88dce17-9fda-4cb0-b3ce-00b33e388205",
             "Value": {
                 "id": "f8eb34e8-abe1-40e0-8e0c-957995f0177f",
@@ -868,6 +884,14 @@
                 "id": "3ed66e86-e2a9-473b-9105-cde854b641bc",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "eab1b839-9b21-49db-9c3c-fde6553e0ae3",
+            "Value": {
+                "id": "7911c78e-28ac-4302-b56e-a2806c7f6de1",
+                "resourcePath": "sprites\\spr_confetti\\spr_confetti.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
