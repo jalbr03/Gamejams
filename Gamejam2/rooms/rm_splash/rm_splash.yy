@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "9661c74a-d9e1-4839-a7fe-13933a8eecfb"
+        "9661c74a-d9e1-4839-a7fe-13933a8eecfb",
+        "83da1ae2-6a1b-4b5c-b24c-830dd3d7e11b"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_7708E098","id": "9661c74a-d9e1-4839-a7fe-13933a8eecfb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7708E098","objId": "0209199b-0502-416e-be64-0fd4bbf48a5f","properties": null,"rotation": 0,"scaleX": 8,"scaleY": 8,"mvc": "1.1","x": 672,"y": 320}
+{"name": "inst_7708E098","id": "9661c74a-d9e1-4839-a7fe-13933a8eecfb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7708E098","objId": "0209199b-0502-416e-be64-0fd4bbf48a5f","properties": null,"rotation": 0,"scaleX": 8,"scaleY": 8,"mvc": "1.1","x": 672,"y": 320},
+{"name": "inst_754FF039","id": "83da1ae2-6a1b-4b5c-b24c-830dd3d7e11b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_754FF039","objId": "8a4adc9f-9c7c-4433-a36a-c2df51b09b50","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0}
             ],
             "layers": [
 
@@ -96,7 +98,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "59c8af85-9586-4500-a978-7a66db65aac9","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "59c8af85-9586-4500-a978-7a66db65aac9","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 1365,"wview": 1365,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "9e12a97b-413b-4be3-847e-7ef615ad7755","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "5fbcb943-7f9e-4633-bd13-7a5fd7a86af8","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "86d43dcd-deeb-447d-a23e-e4f6da899f2d","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
@@ -109,7 +111,7 @@
         "id": "eccda215-992d-4e51-8459-7220d10f9c5d",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"

@@ -8,6 +8,7 @@ winner_point = 0;
 show_winner = false;
 winner_rot = 0;
 
+
 //ds_list_add(player_info,0,c_white,-10,3,1,c_blue,-12,5);
 
 /*
