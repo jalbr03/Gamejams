@@ -9,5 +9,3 @@ if(fire == 0){
 }
 image_alpha = clamp(cos(alpha),0.1,0.5);
 alpha += 0.015;
-
-print(image_angle);

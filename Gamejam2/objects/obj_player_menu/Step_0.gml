@@ -38,6 +38,7 @@ if(menu){
 	instance_deactivate_object(obj_player_droping);
 	instance_deactivate_object(obj_power_glitch);
 	instance_deactivate_object(obj_power_up_parent);
+	instance_deactivate_object(obj_power_up_spawner);
 	if(move_v != 0){
 		if(!was_input_pressed){
 			audio_play_sound(snd_selection,3,0);

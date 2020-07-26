@@ -24,13 +24,10 @@ if(current_powerup == noone){
 }
 
 image_angle = point_direction(x,y,target.x,target.y);
-print("img angle "+string(image_angle))
 //walls
 if(x > room_width)
 
-if(instance_exists(obj_free_wall)){
-	print(instance_nearest(x,y,obj_free_wall).x);
-}
+if(instance_exists(obj_free_wall)){}
 while(place_meeting(x,y,obj_wall)){
 	var freewall = instance_nearest(x,y,obj_free_wall);
 	if(instance_exists(freewall)){
@@ -76,6 +73,7 @@ if(place_meeting(x,y,obj_bug)){
 if(shoot && cool_down <= 0 && room != rm_join){
 	if(current_powerup == noone){
 		audio_play_sound(snd_shoot,2,0);
+		if(instance_exists(obj_cam)) obj_cam.shake = true;
 		var hugger = instance_create_layer(x,y,layer,obj_hugger);
 		hugger.image_angle = image_angle;
 		hugger.creator = id;

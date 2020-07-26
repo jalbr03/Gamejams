@@ -2,6 +2,7 @@ var quitWasPressed = gamepad_button_check(self.controller_id, gp_face2);
 var controller = controller_id;
 var image = image_index;
 var color = image_blend;
+var player_id = (-controller)-10;
 
 //playing around with the player
 if(room_select_player == noone){
@@ -17,6 +18,17 @@ if(room_select_player == noone){
 //if player wants to go back
 if(quitWasPressed){
 	if(global.players_ready){
+		with(obj_player_container){
+			var pose1 = 2-ds_list_find_index(player_info,player_id);
+			var pose2 = 1-ds_list_find_index(player_info,player_id);
+			var pose3 = ds_list_find_index(player_info,player_id);
+			var pose4 = 1+ds_list_find_index(player_info,player_id);
+			
+			ds_list_delete(player_info,pose1);
+			ds_list_delete(player_info,pose2);
+			ds_list_delete(player_info,pose3);
+			ds_list_delete(player_info,pose4);
+		}
 		global.players_ready = false;
 	}else{
 		instance_destroy(room_select_player);
@@ -31,7 +43,6 @@ if(quitWasPressed){
 #region sending off the player
 if(global.players_ready == true && !data_sent){
 	with(obj_player_container){
-		var player_id = (-controller)-10;
 		ds_list_add(player_info,controller);
 		ds_list_add(player_info,color);
 		ds_list_add(player_info,player_id);//id

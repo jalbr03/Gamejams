@@ -7,4 +7,3 @@ if(time <= 0){
 		room_goto_next();
 	}
 }
-print("alarm")

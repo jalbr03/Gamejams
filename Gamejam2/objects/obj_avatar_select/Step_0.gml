@@ -13,5 +13,3 @@ if (self.controller_id >= 0) {
 }
 #endregion
 script_execute(states_array[state]);
-
-print(cos(size_off)+start_size)
