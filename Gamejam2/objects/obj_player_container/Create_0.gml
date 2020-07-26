@@ -7,9 +7,9 @@ points_alpha = 0;
 winner_point = 0;
 show_winner = false;
 winner_rot = 0;
+max_points_to_win = 5;
 
-
-//ds_list_add(player_info,0,c_white,-10,3,1,c_blue,-12,5);
+ds_list_add(player_info,0,c_white,-10,3,1,c_blue,-12,5);
 
 /*
 var contNUM = instance_number(obj_player_container);

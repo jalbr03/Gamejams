@@ -21,7 +21,7 @@ if(room == rm_points){
 		draw_text_ext_transformed_color((room_width/3)*(i+1),(room_height/3)*2,
 			player_point,1,64,points_fall,points_fall,points_fall/10,
 				c_white,c_white,c_white,c_white,points_alpha);
-		if(player_point >= 10){
+		if(player_point >= max_points_to_win){
 			room_goto(rm_winner);
 		}
 	}

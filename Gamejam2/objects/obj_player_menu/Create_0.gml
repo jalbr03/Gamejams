@@ -14,7 +14,7 @@ menu_options = ["CONTINUE","OPTIONS","QUIT"];
 opt_options = ["MUSIC","SOUND FX","BACK"];
 volumes = [0.8,0.3];
 music_sounds = [snd_room_join,snd_room_fight];
-sfx_sounds = [snd_tracks,snd_shoot,snd_selection];
+sfx_sounds = [snd_tracks,snd_shoot,snd_selection,snd_applause];
 selection = 0;
 was_input_pressed = false;
 

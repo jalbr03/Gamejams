@@ -8,7 +8,7 @@ state = customstates.join;
 //sliders
 spacing = 30;
 dist_from_obj = 90;
-slider_offset = 384;
+slider_offset = 192;
 
 sliderR = noone;
 sliderG = noone;
@@ -22,3 +22,6 @@ room_select_player = noone;//this is the id for the object for the player to pla
 data_sent = false;
 
 axis_used = false;
+
+size_off = 0;
+start_size = image_xscale;

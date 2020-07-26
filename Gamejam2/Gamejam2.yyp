@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "e3e62a4d-cb79-4c10-9e0b-45f69b6e7be0",
+            "Value": {
+                "id": "f2e69756-2fb3-4c7f-b61f-cb1860fe605a",
+                "resourcePath": "sounds\\snd_applause\\snd_applause.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "3ed66e86-e2a9-473b-9105-cde854b641bc",
