@@ -1,0 +1,20 @@
+enum bad_state{
+	fallow,
+	straight,
+	curv,
+	center,
+	control
+}
+states_array[bad_state.fallow]   = scr_bad_bullet_fallow;
+states_array[bad_state.straight] = scr_bad_bullet_straight;
+states_array[bad_state.curv] = scr_bad_bullet_curv;
+states_array[bad_state.center] = scr_bad_bullet_center;
+states_array[bad_state.control] = scr_bad_bullet_control;
+state = 0;
+controller_number = -1;
+spd = 5;
+var point_to_center = point_direction(x,y,room_width/2,room_height/2);
+look_x = lengthdir_x(3,point_to_center);
+look_y = lengthdir_y(3,point_to_center);
+image_speed = 0;
+alarm[0] = 1;

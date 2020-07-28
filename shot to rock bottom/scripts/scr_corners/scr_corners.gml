@@ -1,0 +1,12 @@
+var bullet = instance_create_layer(0,0,layer,obj_bad_bullet);
+bullet.state = bad_state.control;
+bullet.controller_number = controller_number;
+var bullet = instance_create_layer(room_width,0,layer,obj_bad_bullet);
+bullet.state = bad_state.control;
+bullet.controller_number = controller_number;
+var bullet = instance_create_layer(0,room_height,layer,obj_bad_bullet);
+bullet.state = bad_state.control;
+bullet.controller_number = controller_number;
+var bullet = instance_create_layer(room_width,room_height,layer,obj_bad_bullet);
+bullet.state = bad_state.control;
+bullet.controller_number = controller_number;
