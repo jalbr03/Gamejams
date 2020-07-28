@@ -1,4 +1,5 @@
 function scr_player_join() {
+	static locked = false;
 	var move_h = gamepad_axis_value(controller_number, gp_axislh);
 	var move_v = gamepad_axis_value(controller_number, gp_axislv);
 	var joiner = collision_circle(x,y,sprite_width+16,obj_what_player,0,1);
@@ -38,7 +39,4 @@ function scr_player_join() {
 
 	x += move_h;
 	y += move_v;
-
-
-
 }

@@ -1,10 +1,15 @@
 function scr_player_2() {
+	static timer = 0;
+	static look_x = 0;
+	static look_y = 0;
+	static timer1 = 0;
+	
 	var move_h = gamepad_axis_value(controller_number, gp_axisrh);
 	var move_v = gamepad_axis_value(controller_number, gp_axisrv);
 	var special = gamepad_button_check(controller_number, gp_face2);
 	if(special && !cool_down){
 		cool_down = true;
-		alarm[2] = fps;
+		timer1 = fps;
 	}
 	if(!cool_down || special_power <= 0){
 		x += (creator.x-x)/5;
@@ -33,5 +38,10 @@ function scr_player_2() {
 	}
 	print(special_power);
 
-
+	#region timers
+	if(timer1 > 0) timer1 --;
+	else{
+		cool_down = false;
+	}
+	#endregion
 }

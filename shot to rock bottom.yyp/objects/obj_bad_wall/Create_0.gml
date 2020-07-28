@@ -1,3 +1,3 @@
 direction_area = 5;
-spd = 2;
+spd = 1;
 alarm[0] = 1;

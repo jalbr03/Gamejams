@@ -14,6 +14,4 @@ if(!place_meeting(x,y,obj_player)){
 	if(what_player == 0){
 		global.player1_ready = true;
 	}
-	
-	
 }

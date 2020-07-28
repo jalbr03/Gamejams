@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "print",
+  "name": "scr_general_functions",
   "tags": [],
   "resourceType": "GMScript",
 }

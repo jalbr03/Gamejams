@@ -31,10 +31,10 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_2A0CB558","path":"rooms/room0/room0.yy",},
-    {"name":"inst_7A84CFA2","path":"rooms/room0/room0.yy",},
-    {"name":"inst_313541A6","path":"rooms/room0/room0.yy",},
-    {"name":"inst_520D4BD7","path":"rooms/room0/room0.yy",},
+    {"name":"inst_2A0CB558","path":"rooms/rm_join/rm_join.yy",},
+    {"name":"inst_7A84CFA2","path":"rooms/rm_join/rm_join.yy",},
+    {"name":"inst_313541A6","path":"rooms/rm_join/rm_join.yy",},
+    {"name":"inst_520D4BD7","path":"rooms/rm_join/rm_join.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -62,7 +62,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "room0",
+  "name": "rm_join",
   "tags": [],
   "resourceType": "GMRoom",
 }
