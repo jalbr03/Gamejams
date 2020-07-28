@@ -14,13 +14,13 @@ if(!cool_down || special_power <= 0){
 	image_xscale += (max_size-image_xscale)/5;
 	image_yscale += (max_size-image_yscale)/5;
 	
-	if((move_h != 0 || move_v != 0) && !cool_down){
+	if((move_h != 0 || move_v != 0) && timer <= 0){
 		var bullet = instance_create_depth(x,y,depth,obj_good_bullet);
 		bullet.image_angle = image_angle;
 		bullet.state = good_bullet_state.straight;
-		cool_down = true;
-		alarm[2] = fps/10; // cool down
+		timer = fps/5;
 	}
+	if(timer > 0) timer --;
 	if(special_power < max_special_power && !cool_down){
 		special_power += 1/(fps*2);
 	}

@@ -13,16 +13,24 @@ spd = 5;
 locked = false;
 look_x = 0;
 look_y = 0;
+
 dashing = false;
 cool_down = false;
 timer = 0;
 animate = 0;
 grow_spd = 0;
+
 specialing = false;
 max_special_power = 3;
 special_power = max_special_power;
+
+t = 0;
+a = 1;
+b = 0.3;
+xscale = 0;
+yscale = 0;
 alarm[0] = 5;
 
-ability_group1 = [scr_all_sides, scr_top, scr_corners, scr_big_boy];
+ability_group1 = [scr_all_sides, scr_top, scr_corners, scr_wall];
 groups = [ability_group1];
 current_group = 0;
