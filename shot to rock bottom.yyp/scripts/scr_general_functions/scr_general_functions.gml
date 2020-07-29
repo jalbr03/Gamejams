@@ -3,3 +3,8 @@
 function print(input_string) {
 	show_debug_message(input_string);
 }
+function change_light(amount){
+	with(obj_god_rays_controller){
+		var_Weight = amount;
+	}
+}

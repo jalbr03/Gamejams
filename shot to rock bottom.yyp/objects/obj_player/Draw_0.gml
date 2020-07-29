@@ -1,3 +1,4 @@
+change_light(0.1);
 draw_self();
 if(state == player_states.level){
 	switch(player_number){

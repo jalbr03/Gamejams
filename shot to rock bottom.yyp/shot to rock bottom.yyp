@@ -44,7 +44,7 @@
     {"id":{"name":"scr_spikewall_builder","path":"scripts/scr_spikewall_builder/scr_spikewall_builder.yy",},"order":5,},
     {"id":{"name":"scr_wall","path":"scripts/scr_wall/scr_wall.yy",},"order":6,},
     {"id":{"name":"scr_good_bullet_fallow","path":"scripts/scr_good_bullet_fallow/scr_good_bullet_fallow.yy",},"order":0,},
-    {"id":{"name":"spr_cave_gb","path":"sprites/spr_cave_gb/spr_cave_gb.yy",},"order":8,},
+    {"id":{"name":"spr_cave_gb","path":"sprites/spr_cave_gb/spr_cave_gb.yy",},"order":15,},
     {"id":{"name":"scr_good_bullet_straight","path":"scripts/scr_good_bullet_straight/scr_good_bullet_straight.yy",},"order":1,},
     {"id":{"name":"scr_good_bullet_crazy","path":"scripts/scr_good_bullet_crazy/scr_good_bullet_crazy.yy",},"order":2,},
     {"id":{"name":"bac_texture","path":"sprites/bac_texture/bac_texture.yy",},"order":1,},
