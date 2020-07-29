@@ -9,11 +9,11 @@ if(state == player_states.level){
 			controller_number = 0;
 			image_index = 0;
 			image_blend = make_color_rgb(55,55,255);
-			var otherplayer = instance_create_layer(x,y,layer,obj_player);
-			otherplayer.player_number = 2;
-			otherplayer.creator = self;
 			break;
 		case(2):
+			var otherplayer = instance_create_layer(x,y,layer,obj_player);
+			otherplayer.player_number = 1;
+			creator = otherplayer;
 			controller_number = 1;
 			depth = -1;
 			image_index = 1;

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"be6a5f5f-aabf-4a76-a649-05f16005b989","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "rays",
+    "path": "folders/rays.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cave_gb",

@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_light_source",
+    "path": "objects/obj_light_source/obj_light_source.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

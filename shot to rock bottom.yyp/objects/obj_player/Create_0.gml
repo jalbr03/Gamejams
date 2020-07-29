@@ -19,7 +19,7 @@ special_power = max_special_power;
 
 t = 0;
 a = 1;
-b = 0.3;
+b = 0.2;
 xscale = 0;
 yscale = 0;
 alarm[0] = 1;
