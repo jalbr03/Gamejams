@@ -12,18 +12,18 @@ function scr_player_3() {
 	
 	if(ability1 && timer1 <= 0){
 		script_execute(ability_set[0]);
-		timer1 = fps;
-	}else if(ability2 && timer2 <= 0){
+		timer1 = fps*3;
+	}else if(ability2 && timer1 <= 0){
 		script_execute(ability_set[1]);
-		timer2 = fps;
-	}else if(ability3 && timer3 <= 0){
+		timer1 = fps*3;
+	}else if(ability3 && timer1 <= 0){
 		script_execute(ability_set[2]);
-		timer3 = fps;
-	}else if(ability4 && timer4 <= 0){
+		timer1 = fps*3;
+	}else if(ability4 && timer1 <= 0){
 		script_execute(ability_set[3]);
-		timer4 = fps;
+		timer1 = fps*3;
 	}
-	
+	print(timer1);
 	if(timer1 > 0) timer1 -= 1;
 	if(timer2 > 0) timer2 -= 1;
 	if(timer3 > 0) timer3 -= 1;

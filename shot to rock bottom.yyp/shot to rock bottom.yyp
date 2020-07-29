@@ -36,6 +36,7 @@
     {"id":{"name":"scr_bad_bullet_center","path":"scripts/scr_bad_bullet_center/scr_bad_bullet_center.yy",},"order":3,},
     {"id":{"name":"scr_bad_bullet_control","path":"scripts/scr_bad_bullet_control/scr_bad_bullet_control.yy",},"order":4,},
     {"id":{"name":"scr_all_sides","path":"scripts/scr_all_sides/scr_all_sides.yy",},"order":0,},
+    {"id":{"name":"spr_gb","path":"sprites/spr_gb/spr_gb.yy",},"order":16,},
     {"id":{"name":"scr_top","path":"scripts/scr_top/scr_top.yy",},"order":1,},
     {"id":{"name":"bac_cave","path":"sprites/bac_cave/bac_cave.yy",},"order":0,},
     {"id":{"name":"scr_corners","path":"scripts/scr_corners/scr_corners.yy",},"order":2,},
