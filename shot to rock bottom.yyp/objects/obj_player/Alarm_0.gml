@@ -13,6 +13,7 @@ if(state == player_states.level){
 		case(2):
 			var otherplayer = instance_create_layer(x,y,layer,obj_player);
 			otherplayer.player_number = 1;
+			obj_player_manager.player1 = otherplayer;
 			creator = otherplayer;
 			controller_number = 1;
 			depth = -1;
@@ -20,6 +21,7 @@ if(state == player_states.level){
 			image_blend = make_color_rgb(255,215,20);
 			break;
 		case(3):
+			scr_boss_setup();
 			controller_number = 2;
 			image_index = 2;
 			image_blend = make_color_rgb(255,55,55);

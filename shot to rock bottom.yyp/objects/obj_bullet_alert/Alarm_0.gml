@@ -1,8 +1,9 @@
-if(type_to_spawn == bullet_types.bullet){
-	var bullet = instance_create_layer(x,y,layer,obj_bad_bullet);
-	bullet.controller_number = controller_number;
-	bullet.state = state;
-}else if(type_to_spawn == bullet_types.wall){
-	var bullet = instance_create_layer(x,y,layer,obj_bad_wall);
-}
+//if(state == bullet_types.bullet){
+	
+//}else if(state == bullet_types.wall){
+//	bullet_spawning.wall();
+//}else if(state == bullet_types.laser){
+//	bullet_spawning.laser();
+//}
+creat_bullet(state);
 instance_destroy(self);

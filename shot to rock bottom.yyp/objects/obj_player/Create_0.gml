@@ -24,6 +24,7 @@ xscale = 0;
 yscale = 0;
 alarm[0] = 1;
 
-ability_group1 = [scr_all_sides, scr_top, scr_corners, scr_wall];
-groups = [ability_group1];
+groups = [];
 current_group = 0;
+ability_array = [];
+ability_state = -1;

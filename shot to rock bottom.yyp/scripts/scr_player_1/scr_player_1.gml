@@ -38,6 +38,7 @@ function scr_player_1() {
 		}
 		move_v = -sign(move_v);
 	}
+	//moving
 	if(!dashing){
 		current_size = max_size;
 		x += move_h;

@@ -36,7 +36,6 @@ function scr_player_2() {
 		special_power -= 5/fps;
 		scr_player_2_special();
 	}
-	print(special_power);
 
 	#region timers
 	if(timer1 > 0) timer1 --;

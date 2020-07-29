@@ -3,10 +3,10 @@
   "isCompatibility": false,
   "parent": {
     "name": "boss controls",
-    "path": "folders/Scripts/baddie/boss controls.yy",
+    "path": "folders/Scripts/boss controls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_all_sides",
+  "name": "scr_boss_controls",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "boss controls",
-    "path": "folders/Scripts/baddie/boss controls.yy",
+    "name": "player",
+    "path": "folders/Scripts/player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_sides",
+  "name": "scr_boss_setup",
   "tags": [],
   "resourceType": "GMScript",
 }
