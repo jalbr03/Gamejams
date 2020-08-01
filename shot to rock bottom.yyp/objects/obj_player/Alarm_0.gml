@@ -22,6 +22,7 @@ if(state == player_states.level){
 			break;
 		case(3):
 			scr_boss_setup();
+			obj_player_manager.player3 = self;
 			controller_number = 2;
 			image_index = 2;
 			image_blend = make_color_rgb(255,55,55);

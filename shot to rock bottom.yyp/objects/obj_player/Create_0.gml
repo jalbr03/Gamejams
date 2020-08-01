@@ -17,6 +17,9 @@ specialing = false;
 max_special_power = 3;
 special_power = max_special_power;
 
+max_sanity = 10;
+sanity = max_sanity;
+
 t = 0;
 a = 1;
 b = 0.2;

@@ -21,7 +21,7 @@ function scr_boss_setup(){
 	ability_array[boss_abilities.wall] = scr_wall;
 	ability_state = -1;
 	
-	ability_group1 = [boss_abilities.top, boss_abilities.all_sides, boss_abilities.sidel, boss_abilities.sider];
+	ability_group1 = [boss_abilities.top, boss_abilities.corners, boss_abilities.sidel, boss_abilities.sider];
 	groups = [ability_group1];
 	
 }

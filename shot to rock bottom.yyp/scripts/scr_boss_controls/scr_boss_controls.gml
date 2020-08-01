@@ -1,3 +1,12 @@
+function scr_insane_mode(){
+	var spawn = irandom(1);
+	if(spawn == 0){
+		var bullet = instance_create_layer(x,y,layer,obj_bad_bullet);
+		bullet.image_angle = random(360);
+		bullet.state = bad_state.straight;
+	}
+}
+
 function scr_4_shot_corners(){
 	static off_set = 0;
 	static timer1 = 0;
@@ -5,8 +14,8 @@ function scr_4_shot_corners(){
 	
 	if(timer1 <= 0){
 		scr_corners(off_set);
-		off_set += 192;
-		timer1 = fps/2;
+		off_set += 64;
+		timer1 = fps/4;
 		times_shot++
 	}else{
 		timer1--;
