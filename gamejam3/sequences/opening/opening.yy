@@ -1,12 +1,12 @@
 {
   "spriteId": null,
-  "timeUnits": 0,
+  "timeUnits": 1,
   "playback": 0,
   "playbackSpeed": 12.0,
   "playbackSpeedType": 0,
   "autoRecord": true,
   "volume": 1.0,
-  "length": 600.0,
+  "length": 144.0,
   "events": {
     "Keyframes": [],
     "resourceVersion": "1.0",

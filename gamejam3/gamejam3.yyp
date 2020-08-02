@@ -12,6 +12,7 @@
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},"order":0,},
     {"id":{"name":"spr_grass_bg","path":"sprites/spr_grass_bg/spr_grass_bg.yy",},"order":5,},
     {"id":{"name":"spr_red","path":"sprites/spr_red/spr_red.yy",},"order":6,},
+    {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},"order":7,},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},"order":6,},
     {"id":{"name":"obj_blocker","path":"objects/obj_blocker/obj_blocker.yy",},"order":5,},
     {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},"order":4,},
@@ -44,8 +45,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},
+    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
