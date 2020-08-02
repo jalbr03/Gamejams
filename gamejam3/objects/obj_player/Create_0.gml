@@ -1,6 +1,6 @@
 //tail_pose = ds_list_create();
 tail_objs = ds_list_create();
-tail_size = 20;
+tail_size = 30;
 alarm[0] = 120;
 
 gamepad_set_axis_deadzone(0, 0.4);
