@@ -23,15 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":1.0,"y":30.0,},
-    {"x":61.0,"y":30.0,},
-    {"x":61.0,"y":34.0,},
-    {"x":1.0,"y":34.0,},
+    {"x":7.0,"y":30.0,},
+    {"x":56.0,"y":30.0,},
+    {"x":56.0,"y":34.0,},
+    {"x":7.0,"y":34.0,},
   ],
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hit_value","path":"objects/obj_bad_parent/obj_bad_parent.yy",},"objectId":{"name":"obj_bad_parent","path":"objects/obj_bad_parent/obj_bad_parent.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hit_value","path":"objects/obj_bad_parent/obj_bad_parent.yy",},"objectId":{"name":"obj_bad_parent","path":"objects/obj_bad_parent/obj_bad_parent.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "bad",

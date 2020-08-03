@@ -3,15 +3,15 @@
     "name": "spr_arrow",
     "path": "sprites/spr_arrow/spr_arrow.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_bad_parent",
-    "path": "objects/obj_bad_parent/obj_bad_parent.yy",
+    "name": "obj_bad_store_parent",
+    "path": "objects/obj_bad_store_parent/obj_bad_store_parent.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -32,6 +32,8 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"hit_value","path":"objects/obj_bad_parent/obj_bad_parent.yy",},"objectId":{"name":"obj_bad_parent","path":"objects/obj_bad_parent/obj_bad_parent.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"sell_item","path":"objects/obj_bad_store_parent/obj_bad_store_parent.yy",},"objectId":{"name":"obj_bad_store_parent","path":"objects/obj_bad_store_parent/obj_bad_store_parent.yy",},"value":"obj_arrow","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"value","path":"objects/obj_bad_store_parent/obj_bad_store_parent.yy",},"objectId":{"name":"obj_bad_store_parent","path":"objects/obj_bad_store_parent/obj_bad_store_parent.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "bad",
