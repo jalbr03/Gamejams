@@ -1,2 +1,2 @@
 creator = noone;
-stay_with = false;
+stay_with = noone;

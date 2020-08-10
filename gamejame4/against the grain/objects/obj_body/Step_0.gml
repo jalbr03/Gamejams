@@ -9,8 +9,13 @@ if(!place_meeting(x,y,obj_static)){
 		ds_list_add(creator.tail_contact,id);
 	}
 }
-if(stay_with){
+if(stay_with == creator){
 	phy_position_x = creator.x;
 	phy_position_y = creator.y;
+}else{
+	print(stay_with)
+	var other_rot = stay_with.phy_rotation;
+	phy_position_x = stay_with.x-lengthdir_x(body_width,other_rot);
+	phy_position_y = stay_with.y+lengthdir_y(body_width,other_rot);
 }
 //creator.tail_contact = tail_contact;
