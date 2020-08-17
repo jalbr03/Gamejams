@@ -1,3 +1,5 @@
+phy_fixed_rotation = true;
+
 var last_body = noone;
 for(var i=0;i<length;i++){
 	var body = instance_create_layer(x-(i*sprite_width),y,layer,obj_body);
