@@ -1,0 +1,10 @@
+//var vi = view_camera[0];
+//var vx = camera_get_view_x(vi);
+//var vy = camera_get_view_y(vi);
+//var vw = camera_get_view_width(vi);
+//var vh = camera_get_view_height(vi);
+//print(vx);
+var col1 = merge_color(red,blue,max(abs(cos(animate)),0));
+draw_rectangle_color(0,0,room_width,room_height,col1,col1,col1,col1,0);
+animate += 0.003;
+draw_self();
