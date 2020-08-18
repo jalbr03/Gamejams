@@ -13,7 +13,6 @@ if(stay_with == creator){
 	phy_position_x = creator.x;
 	phy_position_y = creator.y;
 }else{
-	print(stay_with)
 	var other_rot = stay_with.phy_rotation;
 	phy_position_x = stay_with.x-lengthdir_x(body_width,other_rot);
 	phy_position_y = stay_with.y+lengthdir_y(body_width,other_rot);

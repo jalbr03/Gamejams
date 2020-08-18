@@ -14,7 +14,7 @@ for(var i=0;i<length;i++){
 	body.creator = id;
 	last_body = body;
 }
-var cam = instance_create_layer(x,y,layer,obj_camera);
+var cam = instance_create_layer(x,y,"camera",obj_camera);
 cam.creator = id;
 tail_contact = ds_list_create();
 num_of_contacts = 0;
