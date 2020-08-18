@@ -26,6 +26,7 @@
   "properties": [
     {"varType":7,"value":"$00FF4C4C","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"blue1","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":7,"value":"$00E51616","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"blue2","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":7,"value":"$002D2DE5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"red2","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
