@@ -1,0 +1,1 @@
+phy_rotation = random(360)+1;

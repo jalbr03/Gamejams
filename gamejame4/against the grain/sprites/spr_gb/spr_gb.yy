@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f712070a-cfa2-45c7-bbbd-391eb76d3d08","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "menue",
-    "path": "folders/menue.yy",
+    "name": "ui",
+    "path": "folders/ui.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gb",

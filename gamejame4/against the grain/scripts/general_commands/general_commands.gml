@@ -7,3 +7,6 @@ function half(value, midpoint, range_min, range_max){
 		return range_min;
 	}
 }
+function print(input_string){
+	show_debug_message(input_string);
+}

@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "menue",
-    "path": "folders/menue.yy",
+    "name": "ui",
+    "path": "folders/ui.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bg",
