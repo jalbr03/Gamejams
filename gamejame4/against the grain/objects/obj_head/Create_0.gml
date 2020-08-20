@@ -1,7 +1,7 @@
 phy_fixed_rotation = true;
 walls = ds_list_create();
 wall_y = 0;
-
+global.safe_to_save = false;
 var last_body = noone;
 for(var i=0;i<length;i++){
 	var body = instance_create_layer(x-(i*sprite_width),y,layer,obj_body);
@@ -15,8 +15,10 @@ for(var i=0;i<length;i++){
 	body.creator = id;
 	last_body = body;
 }
-var cam = instance_create_layer(x,y,"camera",obj_camera);
-cam.creator = id;
+if(room == Rm_level){
+	var cam = instance_create_layer(x,y,"camera",obj_camera);
+	cam.creator = id;
+}
 tail_contact = ds_list_create();
 num_of_contacts = 0;
 

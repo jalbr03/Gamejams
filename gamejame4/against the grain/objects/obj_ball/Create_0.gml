@@ -8,7 +8,6 @@ camw = view_get_wport(0) - dist*2;
 camh = view_get_hport(0) - dist*2;
 camx = camera_get_view_x(camera);
 camy = camera_get_view_y(camera);
-life_span = 60;
 
 orbital = function(_x,_y,_angle) constructor{
 	x = _x;

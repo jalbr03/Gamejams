@@ -15,4 +15,11 @@ if(move){
 		phy_linear_velocity_y += ((mouse_y-y)/2.5)*1/length;
 	}
 }
+if(!place_meeting(x,y,obj_static)){
+	global.safe_to_save = false;
+}else{
+	if(wall.phy_rotation == 0){
+		global.safe_to_save = true;
+	}
+}
 time_tile_next_save -= 1;

@@ -1,13 +1,19 @@
 switch(type){
 	case "new game":
 		highscore_clear();
-		room_goto_next();
+		obj_fade.fade = true;
+		obj_fade.fade_dir = 1;
+		obj_fade.room_to_goto = room_next(room);
 	break;
 	case "continue":
-		room_goto_next();
+		obj_fade.fade = true;
+		obj_fade.fade_dir = 1;
+		obj_fade.room_to_goto = room_next(room);
 	break;
 	case "credits":
-		room_goto(Rm_credits);
+		obj_fade.fade = true;
+		obj_fade.fade_dir = 1;
+		obj_fade.room_to_goto = Rm_credits;
 	break;
 	case "quit":
 		game_end();

@@ -18,5 +18,9 @@ if(room == Rm_level){
 			instance_create_layer(obj_player_start.x,obj_player_start.y,layer,obj_head);
 		}
 	}
+}else if(room == Rm_loading){
+	if(tip_num == -1) tip_num = random(array_length(tips));
+	if(alarm[0] == -1) alarm[0] = fps*3;
+}else{
+	if(tip_num != -1) tip_num = -1;
 }
-//highscore_clear();
