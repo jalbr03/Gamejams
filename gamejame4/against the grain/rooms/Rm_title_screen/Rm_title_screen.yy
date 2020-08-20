@@ -20,7 +20,6 @@
         {"properties":[
             {"propertyId":{"name":"in_sellect","path":"objects/obj_head/obj_head.yy",},"objectId":{"name":"obj_head","path":"objects/obj_head/obj_head.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_head","path":"objects/obj_head/obj_head.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":256.0,"resourceVersion":"1.0","name":"inst_6B51582B","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"room_manager","path":"objects/room_manager/room_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4E4E361","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.7276596,"scaleY":0.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":676.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7AC8B52E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"snake","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -56,7 +55,6 @@
     {"name":"inst_18755287","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},
     {"name":"inst_58520D3D","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},
     {"name":"inst_482FF945","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},
-    {"name":"inst_4E4E361","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},
     {"name":"inst_7AC8B52E","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},
     {"name":"inst_5A9CF440","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},
     {"name":"inst_29E6308C","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},

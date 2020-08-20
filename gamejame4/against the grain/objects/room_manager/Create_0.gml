@@ -1,4 +1,4 @@
-//audio_play_sound(snd_music,10,0);
+audio_play_sound(snd_music,10,0);
 window_set_fullscreen(true);
 room_to_goto = noone;
 tip_num = -1;
