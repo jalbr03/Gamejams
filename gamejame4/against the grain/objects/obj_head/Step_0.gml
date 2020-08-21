@@ -1,7 +1,10 @@
 ds_list_clear(walls);
-collision_line_list(x,y,x,y+room_height,obj_static,0,1,walls,1);
-var wall = ds_list_find_value(walls,0);
-wall_y = wall.y;
+var num_of_walls = collision_line_list(x,y,x,y+128,obj_static,0,1,walls,1);
+var wall = noone;
+if(num_of_walls > 0){
+	wall = ds_list_find_value(walls,0);
+	wall_y = wall.y;
+}
 
 var move = mouse_check_button(mb_left);
 
@@ -17,7 +20,7 @@ if(move){
 }
 if(!place_meeting(x,y,obj_static)){
 	global.safe_to_save = false;
-}else{
+}else if(wall != noone){
 	if(wall.phy_rotation == 0){
 		global.safe_to_save = true;
 	}

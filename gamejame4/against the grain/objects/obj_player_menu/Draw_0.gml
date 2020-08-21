@@ -8,7 +8,7 @@ if(menu){
 			if(selection == i){
 				draw_rectangle_color(x+button_size,y+button_height+button_yoff+(button_size*i),
 									 x-button_size,y-button_height+button_yoff+(button_size*i),
-									 c_gray,c_gray,c_black,c_black,0);
+									 c_black,c_black,c_gray,c_gray,0);
 				draw_text_color(x,y+button_yoff+((button_size*i)),menu_options[i],c_white,c_white,c_white,c_white,1);
 			}else{
 				draw_rectangle_color(x+button_size,y+button_height+button_yoff+(button_size*i),
@@ -20,7 +20,7 @@ if(menu){
 			if(selection == i){
 				draw_rectangle_color(x+button_size,y+button_height+button_yoff+(button_size*i),
 									 x-button_size,y-button_height+button_yoff+(button_size*i),
-									 c_gray,c_gray,c_black,c_black,0);
+									 c_black,c_black,c_gray,c_gray,0);
 				draw_text_color(x,y+button_yoff+((button_size*i)),opt_options[i],c_white,c_white,c_white,c_white,1);
 			}else{
 				draw_rectangle_color(x+button_size,y+button_height+button_yoff+(button_size*i),

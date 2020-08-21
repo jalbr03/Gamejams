@@ -22,5 +22,9 @@ if(room == Rm_level){
 	if(tip_num == -1) tip_num = random(array_length(tips));
 	if(alarm[0] == -1) alarm[0] = fps*(string_length(tips[tip_num])/12);
 }else{
+	if(room == rm_splash){
+		if(!audio_is_playing(snd_music)) audio_play_sound(snd_music,10,1);
+		if(audio_is_playing(snd_claps)) audio_stop_sound(snd_claps);
+	}
 	if(tip_num != -1) tip_num = -1;
 }

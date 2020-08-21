@@ -15,7 +15,7 @@ menu_options = ["CONTINUE","OPTIONS","QUIT TO TITLE"];
 opt_options = ["MUSIC","SOUND FX","BACK"];
 volumes = [0.8,0.3];
 music_sounds = [snd_music];
-sfx_sounds = [snd_wind];
+sfx_sounds = [snd_wind,snd_claps];
 selection = 0;
 
 for(var i=0;i<array_length(music_sounds);i++){
