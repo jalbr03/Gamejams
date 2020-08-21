@@ -196,7 +196,6 @@
             {"propertyId":{"name":"spin_spd","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"objectId":{"name":"obj_moving_plat","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"value":"-1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"spin","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"objectId":{"name":"obj_moving_plat","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_moving_plat","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":13.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-48.0,"y":2976.0,"resourceVersion":"1.0","name":"inst_79F192D7","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_head","path":"objects/obj_head/obj_head.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_4D5F5F95","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"animate_spd","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"objectId":{"name":"obj_moving_plat","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"spin_spd","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"objectId":{"name":"obj_moving_plat","path":"objects/obj_moving_plat/obj_moving_plat.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -351,7 +350,6 @@
     {"name":"inst_17500B6C","path":"rooms/Rm_level/Rm_level.yy",},
     {"name":"inst_75721DF4","path":"rooms/Rm_level/Rm_level.yy",},
     {"name":"inst_79F192D7","path":"rooms/Rm_level/Rm_level.yy",},
-    {"name":"inst_4D5F5F95","path":"rooms/Rm_level/Rm_level.yy",},
     {"name":"inst_5412808B","path":"rooms/Rm_level/Rm_level.yy",},
     {"name":"inst_12D45230","path":"rooms/Rm_level/Rm_level.yy",},
     {"name":"inst_CE51396","path":"rooms/Rm_level/Rm_level.yy",},

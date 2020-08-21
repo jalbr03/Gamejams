@@ -77,12 +77,12 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Rm_win","path":"rooms/Rm_win/Rm_win.yy",},
     {"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},
     {"name":"Rm_title_screen","path":"rooms/Rm_title_screen/Rm_title_screen.yy",},
     {"name":"Rm_loading","path":"rooms/Rm_loading/Rm_loading.yy",},
     {"name":"Rm_level","path":"rooms/Rm_level/Rm_level.yy",},
     {"name":"Rm_credits","path":"rooms/Rm_credits/Rm_credits.yy",},
+    {"name":"Rm_win","path":"rooms/Rm_win/Rm_win.yy",},
     {"name":"","path":"",},
   ],
   "Folders": [
