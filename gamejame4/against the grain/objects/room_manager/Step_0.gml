@@ -20,7 +20,7 @@ if(room == Rm_level){
 	}
 }else if(room == Rm_loading){
 	if(tip_num == -1) tip_num = random(array_length(tips));
-	if(alarm[0] == -1) alarm[0] = fps*3;
+	if(alarm[0] == -1) alarm[0] = fps*(string_length(tips[tip_num])/3.5);
 }else{
 	if(tip_num != -1) tip_num = -1;
 }
