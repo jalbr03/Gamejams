@@ -16,4 +16,5 @@ tips = ["Wrap around the poles to climb",
 "Accept the challenges so that you can feel the exhilaration of victory",
 "Good, better, best. Never let it rest. 'Til your good is better and your better is best",
 "The secret of getting ahead is getting started",
-"It does not matter how slowly you go as long as you do not stop"];
+"It does not matter how slowly you go as long as you do not stop",
+"Try saving on the far right on the platform"];

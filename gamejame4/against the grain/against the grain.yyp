@@ -21,7 +21,6 @@
     {"id":{"name":"snd_wind","path":"sounds/snd_wind/snd_wind.yy",},"order":1,},
     {"id":{"name":"obj_guide","path":"objects/obj_guide/obj_guide.yy",},"order":3,},
     {"id":{"name":"Rm_credits","path":"rooms/Rm_credits/Rm_credits.yy",},"order":4,},
-    {"id":{"name":"obj_floating_text","path":"objects/obj_floating_text/obj_floating_text.yy",},"order":15,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":6,},
     {"id":{"name":"spr_buttons","path":"sprites/spr_buttons/spr_buttons.yy",},"order":9,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":2,},

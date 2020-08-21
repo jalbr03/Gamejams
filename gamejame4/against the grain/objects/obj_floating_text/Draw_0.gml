@@ -1,1 +1,0 @@
-draw_text_ext_color(x,y,text,1,1,1,1,1,1,image_alpha);

@@ -14,6 +14,7 @@ for(var i=0;i<length;i++){
 	}
 	body.creator = id;
 	last_body = body;
+	body.color_num = i%body.num_of_colors;
 }
 if(room == Rm_level){
 	var cam = instance_create_layer(x,y,"camera",obj_camera);
