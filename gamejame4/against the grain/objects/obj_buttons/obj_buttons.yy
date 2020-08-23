@@ -32,6 +32,7 @@
         "\"continue\"",
         "\"credits\"",
         "\"quit\"",
+        "\"options\"",
       ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"type","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],

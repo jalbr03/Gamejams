@@ -12,5 +12,8 @@ switch(type){
 	break;
 	case "quit":
 		image_index = 4;
+		break;
+	case "options":
+		image_index = 5;
 	break;
 }

@@ -8,7 +8,7 @@ if(instance_exists(obj_camera)){
 var menu_press = false;
 var select
 var back = false;
-
+print(menu);
 if(!menu){
 	menu_press = keyboard_check_pressed(vk_escape);
 }else{
@@ -24,6 +24,9 @@ if(menu_press){
 
 //menu
 if(menu){
+	if(room == Rm_title_screen){
+		options = true;
+	}
 	if(abs(mouse_x-x) < button_size){
 		var mouse_dist = (mouse_y-y);
 		print(mouse_dist);
@@ -40,6 +43,9 @@ if(menu){
 	button_yoff += -button_yoff/10;
 	
 	if(back){
+		if(room == Rm_title_screen){
+			menu = false;
+		}
 		if(!options){
 			menu = false;
 		}else if(menu){
@@ -98,6 +104,9 @@ if(menu){
 					break;
 				case 2:
 					options = false;
+					if(room == Rm_title_screen){
+						menu = false;
+					}
 					selection = 0;
 					break;
 			}

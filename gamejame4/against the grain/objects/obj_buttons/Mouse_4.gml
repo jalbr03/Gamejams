@@ -17,5 +17,7 @@ switch(type){
 	break;
 	case "quit":
 		game_end();
+	case "options":
+		obj_player_menu.menu = true;
 	break;
 }
