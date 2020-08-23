@@ -39,8 +39,12 @@ if(menu){
 	
 	button_yoff += -button_yoff/10;
 	
-	if(back && !options){
-		menu = false;
+	if(back){
+		if(!options){
+			menu = false;
+		}else if(menu){
+			options = false;
+		}
 	}
 	
 	if(select){

@@ -1,6 +1,8 @@
 phy_fixed_rotation = true;
 walls = ds_list_create();
 wall_y = 0;
+screen_width = view_get_wport(0)/2;
+screen_height = view_get_hport(0)/2;
 global.safe_to_save = false;
 var last_body = noone;
 for(var i=0;i<length;i++){
