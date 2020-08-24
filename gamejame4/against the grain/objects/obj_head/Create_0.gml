@@ -26,3 +26,8 @@ tail_contact = ds_list_create();
 num_of_contacts = 0;
 
 time_tile_next_save = 240;
+
+gamepad_set_axis_deadzone(0,0.4);
+
+v_dir = 0;
+h_dir = 0;

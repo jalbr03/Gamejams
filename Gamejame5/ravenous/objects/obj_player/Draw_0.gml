@@ -1,0 +1,13 @@
+draw_self();
+if(has_skin){
+	draw_sprite_ext(spr_player_skin,0,x,y,1,1,-phy_rotation,c_white,1);
+}
+if(has_heart){
+	draw_sprite_ext(spr_player_heart,0,x,y,1,1,-phy_rotation,c_white,1);
+}
+if(has_eyes){
+	draw_sprite_ext(spr_player_eyes,0,x,y,1,1,-hsv/10,c_white,1);
+}
+if(has_brain){
+	draw_sprite_ext(spr_player_brain,0,x,y,1,1,-phy_rotation,c_white,1);
+}
