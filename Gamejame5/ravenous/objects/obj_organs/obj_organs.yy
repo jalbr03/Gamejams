@@ -22,13 +22,16 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_organs","path":"objects/obj_organs/obj_organs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_organs","path":"objects/obj_organs/obj_organs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_organs","path":"objects/obj_organs/obj_organs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_organs","path":"objects/obj_organs/obj_organs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":6,"value":"\"shoot_blood\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
-        "\"shoot_blood\"",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"upgrade","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"amount","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":6,"value":"\"skin\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+        "\"skin\"",
+        "\"heart\"",
+        "\"eyes\"",
+        "\"brain\"",
+        "\"kidney\"",
+      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"upgrades_list","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"amount","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

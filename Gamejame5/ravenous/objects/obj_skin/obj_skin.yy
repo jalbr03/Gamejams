@@ -25,7 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"upgrades_list","path":"objects/obj_organs/obj_organs.yy",},"objectId":{"name":"obj_organs","path":"objects/obj_organs/obj_organs.yy",},"value":"\"skin\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Object",
     "path": "folders/organs/Object.yy",

@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":1,},
+    {"id":{"name":"spr_player_kidneys","path":"sprites/spr_player_kidneys/spr_player_kidneys.yy",},"order":5,},
     {"id":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"order":0,},
     {"id":{"name":"obj_static","path":"objects/obj_static/obj_static.yy",},"order":2,},
     {"id":{"name":"general_functions","path":"scripts/general_functions/general_functions.yy",},"order":0,},
@@ -15,6 +16,7 @@
     {"id":{"name":"obj_heart","path":"objects/obj_heart/obj_heart.yy",},"order":2,},
     {"id":{"name":"spr_scientist_idle","path":"sprites/spr_scientist_idle/spr_scientist_idle.yy",},"order":0,},
     {"id":{"name":"spr_skin","path":"sprites/spr_skin/spr_skin.yy",},"order":2,},
+    {"id":{"name":"AI","path":"scripts/AI/AI.yy",},"order":1,},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"order":1,},
     {"id":{"name":"spr_player_skin","path":"sprites/spr_player_skin/spr_player_skin.yy",},"order":1,},
     {"id":{"name":"obj_part","path":"objects/obj_part/obj_part.yy",},"order":4,},
