@@ -31,7 +31,7 @@
         "\"brain\"",
         "\"kidney\"",
       ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"upgrades_list","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"amount","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"amount","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

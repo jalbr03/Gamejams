@@ -1,8 +1,5 @@
-print("end");
 if(room = Rm_level){
-	print("room")
 	if(num_of_contacts == 0){
-		print("no conto");
 		//var wall = ds_list_find_value(walls,0);
 		//wall_y = wall.y;
 		

@@ -8,7 +8,6 @@ if(instance_exists(obj_camera)){
 var menu_press = false;
 var select
 var back = false;
-print(menu);
 if(!menu){
 	menu_press = keyboard_check_pressed(vk_escape);
 }else{
@@ -29,7 +28,6 @@ if(menu){
 	}
 	if(abs(mouse_x-x) < button_size){
 		var mouse_dist = (mouse_y-y);
-		print(mouse_dist);
 		
 		if(mouse_dist < button_height){
 			selection = 0;

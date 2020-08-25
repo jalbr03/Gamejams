@@ -24,7 +24,16 @@ if(!use_controller){
 	if(h_dir != 0 || v_dir != 0){
 		move = true;
 	}
-	phy_rotation = -point_direction(x,y,x+h_dir,y+v_dir);
+	target_angle = point_direction(x,y,x+h_dir,y+v_dir);
+	rotation_speed = 0.01;
+	print(min(sign(angle_difference(image_angle, target_angle)) * rotation_speed,
+						angle_difference(image_angle, target_angle)))
+	//phy_rotation += sign(angle_difference(image_angle, target_angle)) * rotation_speed;
+	//print(angle_difference(point_direction(x,y,x-h_dir,y+v_dir),phy_rotation));
+	phy_rotation += min(angle_difference(image_angle, target_angle) * rotation_speed,
+						angle_difference(image_angle, target_angle));
+	//phy_rotation -= (phy_rotation+point_direction(x,y,x+h_dir,y+v_dir))/10;
+	//phy_rotation = -point_direction(x,y,x+h_dir,y+v_dir);
 	x_dist = screen_width*sign(h_dir_test)/2;
 	y_dist = screen_width*sign(v_dir_test)/2;
 }
