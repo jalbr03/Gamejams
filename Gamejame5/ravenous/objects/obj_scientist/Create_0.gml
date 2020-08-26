@@ -1,3 +1,4 @@
+event_inherited();
 phy_fixed_rotation = true;
 organs = [obj_kidneys,obj_heart,obj_skin];
 num_of_organs = array_length(organs);

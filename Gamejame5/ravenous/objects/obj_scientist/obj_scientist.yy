@@ -33,7 +33,13 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_scientist","path":"objects/obj_scientist/obj_scientist.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"arms","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"spr_scientist_arms_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"img_idle_body","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"spr_scientist_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"img_walk_body","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"img_idle_arms","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"spr_scientist_arms_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"img_walk_arms","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/AI/Objects.yy",
