@@ -5,4 +5,4 @@ states = {
 	attack: new AI_attack()
 }
 
-stateMachine = new state_machine(states.idle);
+stateMachine = new state_machine(states.idle,id);

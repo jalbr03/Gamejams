@@ -4,10 +4,10 @@ function state_machine(initial_state) constructor{
 	current_state = initial_state;
 	current_state.enter();
 	
-	function step(){
-		current_state.ex_step();
-		current_state.step();
-		current_state.end_step();
+	function step(ai_id){
+		current_state.ex_step(ai_id);
+		current_state.step(ai_id);
+		current_state.end_step(ai_id);
 	}
 	
 	function transition(new_state){
@@ -16,7 +16,7 @@ function state_machine(initial_state) constructor{
 	}
 }
 
-function state() constructor{
+function state(ai_id) constructor{
 	static spd = 100;
 	static bounce_dist = 10;
 	static img_scale = other.image_xscale;
@@ -61,7 +61,7 @@ function AI_check_insight(other_id, min_dist, max_dist){
 
 function AI_idle(): state() constructor{
 	function enter(){
-		other.image_index = other.img_idle_body;
+		ai_id.image_index = ai_id.img_idle_body;
 		other.arms = other.img_idle_arms;
 	}
 	function step(){

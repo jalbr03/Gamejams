@@ -31,3 +31,5 @@ gamepad_set_axis_deadzone(0,0.4);
 
 v_dir = 0;
 h_dir = 0;
+
+alarm[0] = 10;

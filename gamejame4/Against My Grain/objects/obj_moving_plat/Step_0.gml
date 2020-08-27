@@ -3,7 +3,9 @@ if(!horizontal){
 }else{
 	phy_position_x = xstart+cos(animate)*range*sign(animate_spd);
 }
-if(spin){
+if(spin && !global.pause){
 	phy_rotation += spin_spd;
 }
-animate += animate_spd;
+if(!global.pause){
+	animate += animate_spd;
+}

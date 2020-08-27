@@ -19,5 +19,6 @@ switch(type){
 		game_end();
 	case "options":
 		obj_player_menu.menu = true;
+		global.pause = true;
 	break;
 }

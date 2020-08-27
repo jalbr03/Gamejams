@@ -5,7 +5,7 @@ if(has_skin){
 if(has_heart){
 	draw_sprite_ext(spr_player_heart,animate_index%4,x,y,1,1,-phy_rotation,c_white,1);
 }
-if(has_eyes){
+if(has_eyes && !eyes_out){
 	draw_sprite_ext(spr_player_eyes,animate_index%13,x,y,1,1,-hsv/10,c_white,1);
 }
 if(has_brain){
