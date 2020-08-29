@@ -15,42 +15,46 @@ if(abs(h_dir_test) > 1){
 }
 
 var move = false;
-if(!use_controller){
-	move = mouse_check_button(mb_left);
-	phy_rotation = -point_direction(x,y,mouse_x,mouse_y);
-	x_dist = clamp(mouse_x-x,-screen_width,screen_width);
-	y_dist = clamp(mouse_y-y,-screen_height,screen_height);
-}else{
-	if(h_dir != 0 || v_dir != 0){
-		move = true;
+if(!global.pause){
+	if(!use_controller){
+		move = mouse_check_button(mb_left);
+		phy_rotation = -point_direction(x,y,mouse_x,mouse_y);
+		x_dist = clamp(mouse_x-x,-screen_width,screen_width);
+		y_dist = clamp(mouse_y-y,-screen_height,screen_height);
+	}else{
+		var trigger = 0;
+		var trigger1 = gamepad_button_value(0,gp_shoulderrb);
+		var trigger2 = gamepad_button_value(0,gp_shoulderlb);
+		if(trigger1 > trigger2) trigger = trigger1;
+		if(trigger1 < trigger2) trigger = trigger2;
+		if(h_dir != 0 || v_dir != 0){
+			move = true;
+		}
+		target_angle = point_direction(0,0,h_dir,v_dir);
+		rotation_speed = 0.01;
+		//phy_rotation += sign(angle_difference(image_angle, target_angle)) * rotation_speed;
+		//print(angle_difference(point_direction(x,y,x-h_dir,y+v_dir),phy_rotation));
+		phy_rotation += min(abs(angle_difference(image_angle, target_angle)) * rotation_speed,
+							abs(angle_difference(image_angle, target_angle))) * 
+							sign(angle_difference(image_angle, target_angle)) * 10;
+		//phy_rotation -= (phy_rotation+point_direction(x,y,x+h_dir,y+v_dir))/10;
+		//phy_rotation = -point_direction(x,y,x+h_dir,y+v_dir);
+		x_dist = screen_width*lengthdir_x(1,phy_rotation)*trigger;
+		y_dist = screen_height*lengthdir_y(-1,phy_rotation)*trigger;
 	}
-	target_angle = point_direction(x,y,x+h_dir,y+v_dir);
-	rotation_speed = 0.01;
-	print(min(sign(angle_difference(image_angle, target_angle)) * rotation_speed,
-						angle_difference(image_angle, target_angle)))
-	//phy_rotation += sign(angle_difference(image_angle, target_angle)) * rotation_speed;
-	//print(angle_difference(point_direction(x,y,x-h_dir,y+v_dir),phy_rotation));
-	//phy_rotation += min(angle_difference(image_angle, target_angle) * rotation_speed,
-	//					angle_difference(image_angle, target_angle));
-	//phy_rotation -= (phy_rotation+point_direction(x,y,x+h_dir,y+v_dir))/10;
-	phy_rotation = -point_direction(x,y,x+h_dir,y+v_dir);
-	x_dist = screen_width*sign(h_dir_test)/2;
-	y_dist = screen_width*sign(v_dir_test)/2;
 }
 if(move && !global.pause){
 	num_of_contacts = ds_list_size(tail_contact);
+	print(num_of_contacts);
 	phy_linear_velocity_x += (x_dist/2.5)*num_of_contacts/length;
 	phy_linear_velocity_y += (y_dist/2.5)*num_of_contacts/length;
 	if(in_sellect){
+		print(room);
 		phy_linear_velocity_x += (x_dist/2.5)*1/length;
 		phy_linear_velocity_y += (y_dist/2.5)*1/length;
 	}
 }
-if(!place_meeting(x,y,obj_static)){
-	global.safe_to_save = false;
-}else if(wall != noone){
-	if(wall.phy_rotation == 0){
-		global.safe_to_save = true;
-	}
-}
+
+if(alarm[2] == -1)alarm[2] = fps*random_range(10,20);
+animate ++;
 time_tile_next_save -= 1;

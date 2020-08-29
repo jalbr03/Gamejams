@@ -34,7 +34,6 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"arms","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"spr_scientist_arms_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"img_idle_body","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"spr_scientist_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"img_walk_body","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"img_idle_arms","path":"objects/obj_ai/obj_ai.yy",},"objectId":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"value":"spr_scientist_arms_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

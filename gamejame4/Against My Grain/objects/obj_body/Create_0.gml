@@ -1,3 +1,4 @@
+event_inherited();
 creator = noone;
 stay_with = noone;
 colors = [col1,col3,col2,col3];

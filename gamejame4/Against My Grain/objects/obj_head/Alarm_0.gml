@@ -1,7 +1,6 @@
-//saving
-highscore_clear();
-highscore_add("player posex",x);
-highscore_add("player posey",y);
+if(!in_sellect){
+	save_player_pose();
 
-var ball = instance_create_layer(x,y,"menu",obj_ball);
-ball.center = true;
+	var ball = instance_create_layer(x,y,"menu",obj_ball);
+	ball.center = true;
+}

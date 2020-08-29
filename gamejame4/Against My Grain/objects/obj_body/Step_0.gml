@@ -4,6 +4,7 @@ if(!place_meeting(x,y,obj_static)){
 	if(list_pose != -1){
 		ds_list_delete(creator.tail_contact,list_pose);
 	}
+	print("not on")
 }else{
 	if(list_pose == -1){
 		ds_list_add(creator.tail_contact,id);

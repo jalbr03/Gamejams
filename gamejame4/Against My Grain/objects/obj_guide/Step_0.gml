@@ -14,5 +14,4 @@ if((scale) >= 1){
 }else if((scale) <= 0){
 	anchor_on_pos = true;
 }
-print(scale)
 animate += 0.1;

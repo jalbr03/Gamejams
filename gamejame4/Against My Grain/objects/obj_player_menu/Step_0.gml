@@ -21,6 +21,11 @@ if(menu_press){
 		menu = !menu;
 		button_yoff = -(room_height/4)*3;
 	}
+	if(room == Rm_level){
+		if(instance_exists(obj_head)){
+			save_player_pose();
+		}
+	}
 }
 
 //menu
@@ -75,7 +80,6 @@ if(menu){
 	
 	if(select){
 		if(!options){
-			print("no optot")
 			switch(selection){
 				case 0:
 					menu = false;
@@ -97,21 +101,14 @@ if(menu){
 					break;
 				case 2:
 					if(room != Rm_title_screen){
-						if(global.safe_to_save){
-							selection = 0;
-							menu = false;
-							if(instance_exists(obj_head)){
-								highscore_clear();
-								highscore_add("player posex",obj_head.x);
-								highscore_add("player posey",obj_head.y);
-							}
-							obj_fade.fade = true;
-							obj_fade.fade_dir = 1;
-							obj_fade.room_to_goto = Rm_title_screen;
-						}else{
-							menu_options[2] = "You must be on flat ground";
-							alarm[0] = fps*3;
+						selection = 0;
+						menu = false;
+						if(instance_exists(obj_head)){
+							save_player_pose();
 						}
+						obj_fade.fade = true;
+						obj_fade.fade_dir = 1;
+						obj_fade.room_to_goto = Rm_title_screen;
 					}
 					break;
 				

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gb",
-    "path": "sprites/spr_gb/spr_gb.yy",
+    "name": "spr__title_bg",
+    "path": "sprites/spr__title_bg/spr__title_bg.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_bg","path":"objects/obj_bg/obj_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_bg","path":"objects/obj_bg/obj_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_title_bg","path":"objects/obj_title_bg/obj_title_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_title_bg","path":"objects/obj_title_bg/obj_title_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":7,"value":"$00E52D2D","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"blue","tags":[],"resourceType":"GMObjectProperty",},
@@ -34,7 +34,7 @@
     "path": "folders/ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bg",
+  "name": "obj_title_bg",
   "tags": [],
   "resourceType": "GMObject",
 }

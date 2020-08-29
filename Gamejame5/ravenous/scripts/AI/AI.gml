@@ -4,10 +4,10 @@ function state_machine(initial_state) constructor{
 	current_state = initial_state;
 	current_state.enter();
 	
-	function step(ai_id){
-		current_state.ex_step(ai_id);
-		current_state.step(ai_id);
-		current_state.end_step(ai_id);
+	function step(){
+		current_state.ex_step();
+		current_state.step();
+		current_state.end_step();
 	}
 	
 	function transition(new_state){
@@ -16,7 +16,7 @@ function state_machine(initial_state) constructor{
 	}
 }
 
-function state(ai_id) constructor{
+function state() constructor{
 	static spd = 100;
 	static bounce_dist = 10;
 	static img_scale = other.image_xscale;
@@ -59,10 +59,17 @@ function AI_check_insight(other_id, min_dist, max_dist){
 	}
 }
 
-function AI_idle(): state() constructor{
+function AI_idle(obj_id): state() constructor{
+	self.obj_id = obj_id;
+	
 	function enter(){
-		ai_id.image_index = ai_id.img_idle_body;
-		other.arms = other.img_idle_arms;
+		//other.image_index = other.img_idle_body;
+		//other.arms = other.img_idle_arms;
+		print(self.obj_id.foo);
+		
+		with (self.obj_id) {
+			print(foo);
+		}
 	}
 	function step(){
 		var switch_to = irandom(100);
@@ -77,8 +84,8 @@ function AI_idle(): state() constructor{
 function AI_walk(): state() constructor{
 	
 	function enter(){
-		other.image_index = other.img_walk_body;
-		other.arms = other.img_walk_arms;
+		//other.image_index = other.img_walk_body;
+		//other.arms = other.img_walk_arms;
 		img_scale = choose(1,-1);
 	}
 	
