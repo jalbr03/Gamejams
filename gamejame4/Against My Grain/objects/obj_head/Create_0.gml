@@ -26,8 +26,7 @@ if(in_sellect){
 		last_body = body;
 		body.color_num = i%body.num_of_colors;
 	}
-}
-if(poses == -1 && !in_sellect){
+}else if(poses == -1){
 	for(var i=0;i<length;i++){
 		var body = instance_create_layer(x-(i*sprite_width),y,layer,obj_body);
 		ds_list_add(body_list,body);
@@ -42,8 +41,7 @@ if(poses == -1 && !in_sellect){
 		last_body = body;
 		body.color_num = i%body.num_of_colors;
 	}
-}
-else if(!in_sellect){
+}else if(!in_sellect){
 	//phy_position_x = ds_list_find_value(poses,0);
 	//phy_position_y = ds_list_find_value(poses,1);
 	//phy_rotation = ds_list_find_value(poses,2);

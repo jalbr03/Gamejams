@@ -45,11 +45,9 @@ if(!global.pause){
 }
 if(move && !global.pause){
 	num_of_contacts = ds_list_size(tail_contact);
-	print(num_of_contacts);
 	phy_linear_velocity_x += (x_dist/2.5)*num_of_contacts/length;
 	phy_linear_velocity_y += (y_dist/2.5)*num_of_contacts/length;
 	if(in_sellect){
-		print(room);
 		phy_linear_velocity_x += (x_dist/2.5)*1/length;
 		phy_linear_velocity_y += (y_dist/2.5)*1/length;
 	}

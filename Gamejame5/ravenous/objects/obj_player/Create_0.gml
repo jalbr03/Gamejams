@@ -1,5 +1,5 @@
 spd = 500;
-fast_spd = 10000
+fast_spd = 1000
 hsv = 0;
 
 hp = 10;

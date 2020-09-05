@@ -1,1 +1,0 @@
-menu_options[2] = "QUIT TO TITLE";

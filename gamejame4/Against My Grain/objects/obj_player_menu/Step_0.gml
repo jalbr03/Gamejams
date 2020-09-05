@@ -27,7 +27,6 @@ if(menu_press){
 		}
 	}
 }
-
 //menu
 if(menu){
 	global.pause = true;

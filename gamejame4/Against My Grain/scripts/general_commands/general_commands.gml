@@ -22,6 +22,17 @@ function save_player_pose(){
 	
 	for(var i=0;i<ds_list_size(obj_head.body_list);i++){
 		var body = ds_list_find_value(obj_head.body_list,i);
+		var save_x,save_y;
+		with(body){
+			if(stay_with == creator){
+				save_x = creator.x;
+				save_y = creator.y;
+			}else{
+				var other_rot = stay_with.phy_rotation;
+				save_x = stay_with.x-lengthdir_x(body_width,other_rot);
+				save_y = stay_with.y+lengthdir_y(body_width,other_rot);
+			}
+		}
 		file_text_write_real(file,body.x);
 		file_text_writeln(file);
 		file_text_write_real(file,body.y);
@@ -29,7 +40,6 @@ function save_player_pose(){
 		file_text_write_real(file,body.phy_rotation);
 		file_text_writeln(file);
 	}
-	
 	file_text_close(file);
 }
 function get_player_pose(){
@@ -44,9 +54,6 @@ function get_player_pose(){
 			var rot = file_text_read_real(file);
 			file_text_readln(file);
 			ds_list_add(poses, xx, yy, rot);
-			//ds_list_insert(poses,0, rot);
-			//ds_list_insert(poses,0, yy);
-			//ds_list_insert(poses,0, xx);
 		}
 		file_text_close(file);
 	}else{

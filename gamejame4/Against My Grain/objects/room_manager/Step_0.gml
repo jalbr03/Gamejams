@@ -10,7 +10,7 @@ if(room == Rm_level){
 			var head = instance_create_layer(xx,yy,layer,obj_head);
 			head.phy_rotation = rot
 		}else{
-			instance_create_layer(obj_player_start.x,obj_player_start.y,layer,obj_head);
+			instance_create_layer(obj_player_start.x,obj_player_start.y,"player",obj_head);
 		}
 	}
 }else if(room == Rm_loading){

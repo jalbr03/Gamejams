@@ -4,6 +4,10 @@ window_set_fullscreen(true);
 animate = 0;
 camera = view_camera[0];
 
+backgrounds = [spr_bg3,spr_bg2,spr_bg1];
+bg_alphas = [1,1,1];
+bg_transition_spd = 30;
+
 scale = 0.5
 bg_xscale = 3000*scale;
 bg_yscale = 2000*scale;
