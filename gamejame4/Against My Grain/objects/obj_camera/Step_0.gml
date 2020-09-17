@@ -12,4 +12,4 @@ var view_x = camera_get_view_x(view_camera[camera]);
 var view_y = camera_get_view_y(view_camera[camera]);
 var view_w = camera_get_view_width(view_camera[0]);
 var view_h = camera_get_view_height(view_camera[0]);
-instance_activate_region(view_x-255,view_y-255,view_w+255,view_h+255,true);
+//instance_activate_region(view_x-255,view_y-255,view_w+255,view_h+255,true);
