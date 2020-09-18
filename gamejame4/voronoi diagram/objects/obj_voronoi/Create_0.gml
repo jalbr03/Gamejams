@@ -7,3 +7,7 @@ for(var i=0;i<num_of_points;i++){
 	points[i] = [random(canvas_size/copy),random(canvas_size/copy)];
 }
 //time = 0;
+
+surface = surface_create(room_width,room_height);
+
+show_debug_overlay(true);

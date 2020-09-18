@@ -1,6 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"spr_img","path":"sprites/spr_img/spr_img.yy",},"order":0,},
     {"id":{"name":"obj_voronoi","path":"objects/obj_voronoi/obj_voronoi.yy",},"order":0,},
+    {"id":{"name":"obj_shader_test","path":"objects/obj_shader_test/obj_shader_test.yy",},"order":1,},
+    {"id":{"name":"spr_img2","path":"sprites/spr_img2/spr_img2.yy",},"order":1,},
+    {"id":{"name":"sha_pixel_draw","path":"shaders/sha_pixel_draw/sha_pixel_draw.yy",},"order":0,},
+    {"id":{"name":"spr_img3","path":"sprites/spr_img3/spr_img3.yy",},"order":2,},
+    {"id":{"name":"sha_pixel_draw2","path":"shaders/sha_pixel_draw2/sha_pixel_draw2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -43,11 +49,11 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":false,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "23.1.1.174",
+    "IDEVersion": "2.3.0.529",
   },
   "resourceVersion": "1.3",
   "name": "voronoi diagram",
