@@ -9,3 +9,10 @@ for(var i=0;i<num_of_points;i++){
 		vels[i*2+1]*=-1;
 	}
 }
+if(image_number > 0){
+	var _uv = sprite_get_uvs(sprite_index,image_index);
+	uv_x = _uv[0];
+	uv_y = _uv[1];
+	uv_w = 1/(_uv[2] - _uv[0]);
+	uv_h = 1/(_uv[3] - _uv[1]);
+}

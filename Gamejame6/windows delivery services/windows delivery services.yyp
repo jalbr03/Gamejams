@@ -9,6 +9,7 @@
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":0,},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},"order":3,},
     {"id":{"name":"squ_click","path":"sequences/squ_click/squ_click.yy",},"order":0,},
+    {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},"order":6,},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},"order":5,},
     {"id":{"name":"obj_death_box","path":"objects/obj_death_box/obj_death_box.yy",},"order":6,},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},"order":7,},
@@ -44,12 +45,13 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room6","path":"rooms/Room6/Room6.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Room2","path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","path":"rooms/Room3/Room3.yy",},
     {"name":"Room4","path":"rooms/Room4/Room4.yy",},
     {"name":"Room5","path":"rooms/Room5/Room5.yy",},
+    {"name":"Room6","path":"rooms/Room6/Room6.yy",},
+    {"name":"Room7","path":"rooms/Room7/Room7.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -1,9 +1,10 @@
 sprite_index = image;
+image_speed = 0.1;
 show_debug_overlay(true);
 shad_points = shader_get_uniform(sha_voronoi, "points");
 numofpoints = shader_get_uniform(sha_voronoi, "num_of_points");
 uvs = shader_get_uniform(sha_voronoi,"uvs");
-var _uv = sprite_get_uvs(sprite_index,0);
+var _uv = sprite_get_uvs(sprite_index,image_index);
 uv_x = _uv[0];
 uv_y = _uv[1];
 uv_w = 1/(_uv[2] - _uv[0]);

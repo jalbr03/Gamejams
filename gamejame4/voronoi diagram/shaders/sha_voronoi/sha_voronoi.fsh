@@ -31,39 +31,3 @@ void main()
 								 (value1+value2)/2.0);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-//for(int i=0;i<num_of_points;i++){
-	//	//float len = pow(pow(points[i*2]-pos.x,2.0) + pow(points[i*2+1]-pos.y,2.0),2.0);
-	//	//if(pos.y-points[i*2+1] < 0.01 && pos.y-points[i*2+1] > -0.01){
-	//	//	gl_FragColor.rgb = vec3(1.0,0.0,0.0);
-	//	//}
-	//	//if(pos.y < 0.5){
-	//	//	gl_FragColor.rgb = vec3(0.0,0.0,1.0);
-	//	//}
-	//	//if(pos.y < points[i*2+1]+0.01 && pos.y > points[i*2+1]-0.01){
-	//	//	gl_FragColor.rgb = vec3(1.0,0.0,0.0);
-	//	//}
-	//	//if(pos.x < points[i*2]+0.01 && pos.x > points[i*2]-0.01){
-	//	//	gl_FragColor.rgb = vec3(1.0,0.0,0.0);
-	//	//}
-	//	//if(pos.y*3.5 < 0.1+0.01 && pos.y*3.5 > 0.1-0.01){
-	//	//	gl_FragColor.rgb = vec3(0.0,1.0,0.0);
-	//	//}
-	//	//if(pos.x < 0.1+0.01 && pos.x > 0.1-0.01){
-	//	//	gl_FragColor.rgb = vec3(0.0,1.0,0.0);
-	//	//}
-	//	if(closestpoint==0.0){
-	//		closestpoint = 0.0;
-	//		value1 = float(i+1);
-	//		value2 = mod(value1,2.0);
-	//	}
-	//}
