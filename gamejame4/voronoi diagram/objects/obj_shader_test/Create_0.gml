@@ -1,6 +1,14 @@
+sprite_index = image;
 show_debug_overlay(true);
-shad_points = shader_get_uniform(sha_pixel_draw, "points");
-numofpoints = shader_get_uniform(sha_pixel_draw, "num_of_points");
+shad_points = shader_get_uniform(sha_voronoi, "points");
+numofpoints = shader_get_uniform(sha_voronoi, "num_of_points");
+uvs = shader_get_uniform(sha_voronoi,"uvs");
+var _uv = sprite_get_uvs(sprite_index,0);
+uv_x = _uv[0];
+uv_y = _uv[1];
+uv_w = 1/(_uv[2] - _uv[0]);
+uv_h = 1/(_uv[3] - _uv[1]);
+
 
 points = [];
 vels = [];
@@ -12,4 +20,3 @@ for(var i=0;i<num_of_points;i++){
 	vels[i*2] = random_range(-fragment_max_spd,fragment_max_spd);
 	vels[i*2+1] = random_range(-fragment_max_spd,fragment_max_spd);
 }
-points = [0,0,sprite_width/2,sprite_height/2,sprite_width,sprite_height];

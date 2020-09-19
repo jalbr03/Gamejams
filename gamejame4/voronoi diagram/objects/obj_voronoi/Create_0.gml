@@ -1,10 +1,12 @@
 points = [];
+vel = [];
 num_of_points = 10;
 canvas_size = 700;
 cell_size = 10;
-grid = ds_grid_create(canvas_size/cell_size,canvas_size/cell_size);
+size = canvas_size/copy;
 for(var i=0;i<num_of_points;i++){
 	points[i] = [random(canvas_size/copy),random(canvas_size/copy)];
+	vel[i] = [random_range(-1,1),random_range(-1,1)];
 }
 //time = 0;
 
