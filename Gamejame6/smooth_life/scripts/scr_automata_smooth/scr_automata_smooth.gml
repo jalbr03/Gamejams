@@ -17,13 +17,15 @@ function smooth_choose_to_die(){
 
 	for (var j = 0; j < height; j++) {
 	    for (var i = 0; i < width; i++) {
-	        neighbourWallTiles = smoothGetSurroundingWallCount (i, j, 5, 2);
-			if (mapData2 [# i, j] == 0 && neighbourWallTiles == 3) {
-				mapData2 [# i, j] = 1;
-			} else if (neighbourWallTiles < 2 || neighbourWallTiles > 3) {
+			neighbourWallTiles = smoothGetSurroundingWallCount (i, j, 1, 0);
+			
+			if (neighbourWallTiles < 0.1 || neighbourWallTiles > 0.9) {
 				mapData2 [# i, j] = 0;
-			} else if(neighbourWallTiles == 2 || neighbourWallTiles == 3){
-				mapData2 [# i, j] = mapData [# i, j];
+			} else if(neighbourWallTiles >= 0.1 && neighbourWallTiles <= 0.9){
+				mapData2 [# i, j] = neighbourWallTiles;
+				if(mapData2 [# i, j] < 0.1){
+					mapData2 [# i, j] = 0;
+				}
 			}
 	    }
 	}
@@ -35,16 +37,23 @@ function smooth_choose_to_die(){
 
 function smoothGetSurroundingWallCount(_x, _y, view_sizeL, view_sizeS){
 	var wallCount = 0;
+	var wall_value = 0;
 	for (var neighbourY = _y - view_sizeL; neighbourY <= _y + view_sizeL; neighbourY++) {
 		for (var neighbourX = _x - view_sizeL; neighbourX <= _x + view_sizeL; neighbourX++) {
 		    if (neighbourX >= 0 and neighbourX < width and neighbourY >= 0 and neighbourY < height) { //Still in mapData bounds
 		        if (view_sizeS < abs(neighbourX-_x) or view_sizeS < abs(neighbourY-_y)) {
-		            wallCount += mapData [# neighbourX, neighbourY];
+		            wall_value += mapData [# neighbourX, neighbourY];
+					wallCount += 1;
 		        }
 		    }
 		}
 	}
-	return wallCount;
+	if(wall_value > 0){
+		//print("wall value "+string(wall_value));
+		//print("wall count "+string(wallCount));
+		wall_value = wall_value/wallCount;
+	}
+	return wall_value;
 }
 /*
 function Apply(){

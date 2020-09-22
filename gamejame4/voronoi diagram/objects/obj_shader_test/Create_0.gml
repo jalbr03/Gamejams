@@ -1,3 +1,4 @@
+window_set_fullscreen(true);
 sprite_index = image;
 image_speed = 0.1;
 show_debug_overlay(true);

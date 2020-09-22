@@ -3,6 +3,7 @@
     {"id":{"name":"spr_img","path":"sprites/spr_img/spr_img.yy",},"order":0,},
     {"id":{"name":"obj_voronoi","path":"objects/obj_voronoi/obj_voronoi.yy",},"order":0,},
     {"id":{"name":"obj_shader_test","path":"objects/obj_shader_test/obj_shader_test.yy",},"order":1,},
+    {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},"order":11,},
     {"id":{"name":"Room410","path":"rooms/Room410/Room410.yy",},"order":9,},
     {"id":{"name":"sha_voronoi","path":"shaders/sha_voronoi/sha_voronoi.yy",},"order":1,},
     {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},"order":7,},
@@ -37,6 +38,7 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"Room12","path":"rooms/Room12/Room12.yy",},
     {"name":"Room19","path":"rooms/Room19/Room19.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Room2","path":"rooms/Room2/Room2.yy",},

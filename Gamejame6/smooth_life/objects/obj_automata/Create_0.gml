@@ -14,13 +14,15 @@ time_steps = 10;
 if(caves){
 	cave_Generate();
 	//Apply();
-	repeat(smoothness) {
-	    SmoothMap();
+	if(in_creat){
+		repeat(smoothness) {
+		    SmoothMap();
+		}
 	}
 }else if(Conway){
 	Conway_Generate();
-	choose_to_die();
 }else if(smooth){
 	smooth_Generate();
-	smooth_choose_to_die();
+}else if(pond){
+	pond_Generate();
 }

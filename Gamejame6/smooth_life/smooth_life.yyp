@@ -1,11 +1,13 @@
 {
   "resources": [
-    {"id":{"name":"scr_automata_caves","path":"scripts/scr_automata_caves/scr_automata_caves.yy",},"order":0,},
-    {"id":{"name":"scr_automata_smooth","path":"scripts/scr_automata_smooth/scr_automata_smooth.yy",},"order":2,},
+    {"id":{"name":"scr_automata_caves","path":"scripts/scr_automata_caves/scr_automata_caves.yy",},"order":1,},
+    {"id":{"name":"scr_automata_smooth","path":"scripts/scr_automata_smooth/scr_automata_smooth.yy",},"order":3,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":0,},
     {"id":{"name":"obj_automata","path":"objects/obj_automata/obj_automata.yy",},"order":0,},
+    {"id":{"name":"scr_general","path":"scripts/scr_general/scr_general.yy",},"order":0,},
     {"id":{"name":"asasdf","path":"sprites/asasdf/asasdf.yy",},"order":1,},
-    {"id":{"name":"scr_automata_Conway","path":"scripts/scr_automata_Conway/scr_automata_Conway.yy",},"order":1,},
+    {"id":{"name":"scr_automata_Conway","path":"scripts/scr_automata_Conway/scr_automata_Conway.yy",},"order":2,},
+    {"id":{"name":"scr_automata_pond","path":"scripts/scr_automata_pond/scr_automata_pond.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
