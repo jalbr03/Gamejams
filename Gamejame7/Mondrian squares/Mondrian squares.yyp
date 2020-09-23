@@ -1,13 +1,18 @@
 {
   "resources": [
-    {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},"order":1,},
+    {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":3,},
+    {"id":{"name":"obj_square2","path":"objects/obj_square2/obj_square2.yy",},"order":0,},
+    {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},"order":2,},
     {"id":{"name":"general","path":"scripts/general/general.yy",},"order":0,},
-    {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":2,},
-    {"id":{"name":"spr_wrong","path":"sprites/spr_wrong/spr_wrong.yy",},"order":2,},
+    {"id":{"name":"obj_score2","path":"objects/obj_score2/obj_score2.yy",},"order":1,},
+    {"id":{"name":"obj_square","path":"objects/obj_square/obj_square.yy",},"order":1,},
+    {"id":{"name":"spr_wrong","path":"sprites/spr_wrong/spr_wrong.yy",},"order":3,},
     {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},"order":0,},
+    {"id":{"name":"scr_grid1","path":"scripts/scr_grid1/scr_grid1.yy",},"order":0,},
+    {"id":{"name":"obj_square_manager","path":"objects/obj_square_manager/obj_square_manager.yy",},"order":0,},
+    {"id":{"name":"spr_square2","path":"sprites/spr_square2/spr_square2.yy",},"order":1,},
+    {"id":{"name":"obj_wrong","path":"objects/obj_wrong/obj_wrong.yy",},"order":2,},
     {"id":{"name":"scr_grid","path":"scripts/scr_grid/scr_grid.yy",},"order":1,},
-    {"id":{"name":"obj_square","path":"objects/obj_square/obj_square.yy",},"order":0,},
-    {"id":{"name":"obj_wrong","path":"objects/obj_wrong/obj_wrong.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -45,6 +50,8 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/V1.yy","order":4,"resourceVersion":"1.0","name":"V1","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/V1.yy","order":2,"resourceVersion":"1.0","name":"V1","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
