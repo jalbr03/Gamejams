@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "V1",
+    "path": "folders/Objects/V1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_wrong",
