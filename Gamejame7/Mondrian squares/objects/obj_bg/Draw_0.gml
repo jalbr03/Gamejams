@@ -1,5 +1,5 @@
 if(global.passable){
-	var R = sin(time)/6;
+	var R = sin(time*1.3)/6;
 	draw_circle_color(x,y,room_width*(1.5+R),middle_col,correct_col,0);
 	for(var i=0;i<room_width/spacing;i++){
 		for(var j=0;j<room_height/spacing;j++){
@@ -8,7 +8,7 @@ if(global.passable){
 		}
 	}
 }else{
-	var R = sin(time*2)/2;
+	var R = sin(time*2)/1.5;
 	draw_circle_color(x,y,room_width*(1.5+R),middle_col,wrong_col,0);
 	for(var i=0;i<room_width/spacing;i++){
 		for(var j=0;j<room_height/spacing;j++){
