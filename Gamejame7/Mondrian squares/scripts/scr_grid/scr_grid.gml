@@ -3,6 +3,7 @@
 function grid_scan(){
 	var passable = true;
 	for(var i=0;i<array_length(global.groups);i++){
+		#region getting the top left and bottom right
 		var best_test_l = global.groups[i][0];
 		var best_test_r = global.groups[i][0];
 		for(var k=0;k<array_length(global.groups[i]);k++){
@@ -19,9 +20,23 @@ function grid_scan(){
 		var test_width = (top_left.x-bottom_right.x-sprite_width)/sprite_width;
 		var test_height = (top_left.y-bottom_right.y-sprite_width)/sprite_width;
 		var test_area = abs(test_width*test_height);
+		#endregion
+		#region set color of the group
+		var amount1 = abs(top_left.x-bottom_right.x)/(grid_width*sprite_width*2);
+		var amount2 = abs(top_left.y-bottom_right.y)/(grid_height*sprite_width*2);
+		var new_group_col = make_color_hsv((amount1+amount2)*255,255,255);
+		
+		for(var g=0;g<array_length(global.groups[i]);g++){
+			var sub_group = global.groups[i][g];
+			sub_group.group_col = new_group_col;
+		}
+		#endregion
+		#region test if areas match
 		if(area != test_area){
 			passable = false;
 		}
+		#endregion
+		#region getting the other groups
 		for(var j=0;j<array_length(global.groups);j++){
 			var n_best_test_l = global.groups[j][0];
 			var n_best_test_r = global.groups[j][0];
@@ -40,15 +55,17 @@ function grid_scan(){
 			var n_test_height = (n_top_left.y-n_bottom_right.y-sprite_width)/sprite_width;
 			if(i != j){
 				if(n_test_width == test_width && n_test_height == test_height || n_test_width == test_height && n_test_height == test_width){
-					
 					passable = false;
 					break;
 				}
 			}
 		}
+		#endregion
+		#region if it did not pass break out
 		if(!passable){
 			break;
 		}
+		#endregion
 	}
 	return passable;
 }
@@ -108,7 +125,6 @@ function organize_list(){
 				temp_list[next_group][array_length(temp_list[next_group])] = global.groups[i][j];
 				var box = global.groups[i][j];
 				box.grid_pose = [next_group,array_length(temp_list[next_group])-1];
-				//print("there is one "+string(next_group));
 			}
 		}
 		if(is_there_a_group){
